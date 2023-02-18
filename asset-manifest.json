@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ecuriesdelajot/static/css/main.72354431.css",
+    "main.js": "/ecuriesdelajot/static/js/main.f4a1214a.js",
+    "index.html": "/ecuriesdelajot/index.html",
+    "main.72354431.css.map": "/ecuriesdelajot/static/css/main.72354431.css.map",
+    "main.f4a1214a.js.map": "/ecuriesdelajot/static/js/main.f4a1214a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72354431.css",
+    "static/js/main.f4a1214a.js"
+  ]
+}
