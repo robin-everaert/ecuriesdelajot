@@ -1,0 +1,20 @@
+#header {
+    margin: auto;
+    width: 80%;
+    .btn-nav {
+        // width: 6em;
+        background: $colorTxt;
+        margin: 8px;
+        padding: 3px 0;
+        color: $white;
+        &:hover {
+          background: $colorPrimary;
+        }
+      } 
+}
+
+@media (min-width: 768px) {
+  .btn-nav {
+    width: 4em;  
+  }
+}
