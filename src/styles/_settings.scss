@@ -1,24 +1,36 @@
-$colorPrimary: #BA1A00;
-$colorTxt: #651106;
-$colorBack: #DA7D54;
+$mainColor: #651106;
+$secondColor: #DA7D54;
+
 // $colorBackSecond: #303134;
 // $colorBorder: #3c4043;
 $white: #fff;
-$black: #000;
+$txtColor: $mainColor;
 
 html {
   scroll-behavior: smooth;
 }
-main {
-  min-height: 50vh !important;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    h1 {
-      font-size: 4rem;
-      color: $colorTxt;
-    }
-}
 a {
   text-decoration: none;
 }
+
+// Layout : 
+#main {
+  margin-top: 5vh;
+}
+
+
+// Font : 
+.txt-important {
+  color: $mainColor;
+  text-align: center;
+}
+.main-home {
+
+  p{
+    font-size: 1.2rem;
+    color: $txtColor;
+  }
+}
+
+
+

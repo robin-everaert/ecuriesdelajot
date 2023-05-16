@@ -1,6 +1,6 @@
 #main-footer {
-    background: $colorBack;
-    color: $colorTxt;
+    background: $secondColor;
+    color: $txtColor;
     padding: 2em 0;
 
     p {
@@ -25,6 +25,6 @@
     }
     i{
         font-size:  1.8em;
-        color: $colorPrimary;    
+        color: $mainColor;    
     }
 }
