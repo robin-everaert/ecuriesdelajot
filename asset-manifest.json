@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/ecuriesdelajot/static/css/main.ce45d511.css",
-    "main.js": "/ecuriesdelajot/static/js/main.7d4274ef.js",
-    "static/media/banner.png": "/ecuriesdelajot/static/media/banner.94225f2bbd5b76ba9bcb.png",
-    "static/media/centre-1.png": "/ecuriesdelajot/static/media/centre-1.b95ae0277561fc02176f.png",
-    "static/media/logo.jpeg": "/ecuriesdelajot/static/media/logo.ad0220b39673c0b14b45.jpeg",
+    "main.css": "/ecuriesdelajot/static/css/main.879f5978.css",
+    "main.js": "/ecuriesdelajot/static/js/main.39010d69.js",
+    "static/media/accueil-section-1.jpg": "/ecuriesdelajot/static/media/accueil-section-1.681873ad77b0a8d86031.jpg",
+    "static/media/Trirong-Regular.ttf": "/ecuriesdelajot/static/media/Trirong-Regular.fe383db36671cca9ab40.ttf",
+    "static/media/qui-suis-je.jpg": "/ecuriesdelajot/static/media/qui-suis-je.9fc375ec8b5fa0be8042.jpg",
+    "static/media/Oregano-Regular.ttf": "/ecuriesdelajot/static/media/Oregano-Regular.19f68c957af8e5b608f9.ttf",
+    "static/media/logo-no-txt.png": "/ecuriesdelajot/static/media/logo-no-txt.faa7bc544f375dd93445.png",
+    "static/media/line-coeur.png": "/ecuriesdelajot/static/media/line-coeur.b6e0c5238c7baf5c08e8.png",
     "index.html": "/ecuriesdelajot/index.html",
-    "main.ce45d511.css.map": "/ecuriesdelajot/static/css/main.ce45d511.css.map",
-    "main.7d4274ef.js.map": "/ecuriesdelajot/static/js/main.7d4274ef.js.map"
+    "main.879f5978.css.map": "/ecuriesdelajot/static/css/main.879f5978.css.map",
+    "main.39010d69.js.map": "/ecuriesdelajot/static/js/main.39010d69.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce45d511.css",
-    "static/js/main.7d4274ef.js"
+    "static/css/main.879f5978.css",
+    "static/js/main.39010d69.js"
   ]
 }
