@@ -1,0 +1,42 @@
+.section-1 {
+    .txt-section1-container {
+        margin: 4vh 0;
+    }
+    h1 {
+        color: $mainColor;
+        font-size: 5rem;
+    }
+    h2 {
+        color: $secondColor;
+        font-size: 2.8rem;
+    }
+}
+//Présentation:
+.presentation-container {
+    margin: 15vh 0;
+
+        p {
+            font-size: 1.3rem;
+        }
+}
+// Qui suis-je :
+.quiSuisJe-container {
+    margin-top: 10vh;
+
+        h1 {
+            font-size: 3rem !important;
+            color: $mainColor !important;
+        }
+        .font-title {
+            color: $secondColor;
+            font-size: 1.6rem;
+        }
+        p {
+            padding-left: 2rem;
+        }
+}
+
+// dekstop : 
+@media(min-width: 768px) {
+
+}

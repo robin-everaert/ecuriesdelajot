@@ -1,18 +1,15 @@
-import React from 'react';
+import NavBar from "../common/NavBar";
 
-import logo from "../assets/images/logo.jpeg"
+import logoNoTxt from "../assets/images/logo-no-txt.png";
 
-
-
-import NavBar from "./NavBar";
 const Header = () => {
     return (
-        <header className='main-header d-flex flex-column justify-content-around' id="header">
-            <div className="container-logo d-flex justify-content-center">
-                <img src={ logo } className='img -img-fluid' alt="Le logo de l'Ecuries de l'Ajot" />
-            </div>
-            
-            <NavBar />     
+        <header className='main-header d-flex justify-content-between align-items-start' id="header">
+                <div className="logo-header-container pt-3">
+                    <img src={ logoNoTxt } className='img img-fluid logo-header' alt="Le logo de l'Ecuries de l'Ajot" />
+                </div>
+                
+                <NavBar />                 
         </header>
     );
 };

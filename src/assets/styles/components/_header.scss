@@ -1,0 +1,27 @@
+#header {
+
+
+    .logo-header {
+      width: 150px;
+    }
+    .btn-nav {
+        color: $mainColor;
+          &:hover, .active a {
+            text-decoration: underline;
+          }
+      } 
+}
+
+@media (min-width: 768px) {
+
+  #header {
+    padding-right: 15vh;
+    padding-left: 5vh;
+
+    .btn-nav {
+      font-size: 1.5rem;
+    }
+
+  }
+
+}

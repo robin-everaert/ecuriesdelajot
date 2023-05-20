@@ -1,0 +1,73 @@
+// Layout : 
+#main {
+  margin-top: 5vh;
+}
+// Global: 
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+.border-radius-left {
+  border-radius: 350px 0 0 0;
+}
+.border-radius-right {
+  border-radius: 0 350px 0 0;
+}
+
+$mainColor: #651106;
+$secondColor: #DA7D54;
+
+$white: #fff;
+$txtColor: $mainColor;
+$black: #333;
+
+$secondColorBack: rgba(217, 141, 98, 0.1);
+
+body {
+  background: $secondColorBack;
+}
+
+
+
+// font : 
+@font-face {
+  font-family: 'Trirong';
+  src: url('../fonts/trirong/Trirong-Regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Oregano';
+  src: url('../fonts/oregano/Oregano-Regular.ttf') format('truetype');
+}
+:root {
+  --mainFont: 'Trirong', sans-serif;
+  --logoFont: 'Oregano', sans-serif;
+}
+
+
+html, body, header, main, footer {
+  font-family: var(--mainFont);
+}
+.fontTitle {
+  font-family: var(--logoFont);
+}
+
+
+// Font : 
+.txt-important {
+  color: $mainColor;
+  text-align: center;
+}
+.main-home {
+
+  p{
+    font-size: 1.2rem;
+    color: $txtColor;
+  }
+}
+
+
+
+
+
