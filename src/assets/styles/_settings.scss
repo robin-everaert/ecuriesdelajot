@@ -9,12 +9,15 @@ html {
 a {
   text-decoration: none;
 }
-.border-radius-left {
-  border-radius: 350px 0 0 0;
+@media(min-width: 768px) {
+  .border-radius-left {
+    border-radius: 350px 0 0 0;
+  }
+  .border-radius-right {
+    border-radius: 0 350px 0 0;
+  }
 }
-.border-radius-right {
-  border-radius: 0 350px 0 0;
-}
+
 
 $mainColor: #651106;
 $secondColor: #DA7D54;

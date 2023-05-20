@@ -22,8 +22,6 @@ const App = () => {
         <Route path='/price' element={ <Price /> } />
         <Route path='/contact' element={ <Contact /> } />
       </Routes>
-
-      {/* <Footer /> */}
     </Router>
 
   );
