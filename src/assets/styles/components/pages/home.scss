@@ -1,5 +1,9 @@
 .main-home {
     margin-bottom: 15vh;
+
+    section {
+        margin-top: 10vh;
+    }
     .section-1 {
         .txt-section1-container {
             margin: 4vh 0;
@@ -15,7 +19,6 @@
     }
     //Présentation:
     .presentation-container {
-        margin: 5vh 0;
     
             p {
                 font-size: 1.3rem;
@@ -23,8 +26,6 @@
     }
     // Qui suis-je :
     .quiSuisJe-container {
-
-        margin-top: 5vh;
     
             h1 {
                 font-size: 3rem !important;
@@ -39,12 +40,9 @@
     
     // Services : 
     .service-container {
-        background: rgba(255, 255, 255, 1);
-        
+        background: rgba(255, 255, 255, 1);    
         padding: 8vh 3vh;
         border-radius: 30px;
-
-        margin-top: 5vh;
 
             h1, h3 {
                 color: $mainColor;
@@ -60,6 +58,50 @@
                 border-radius: 50px;
                 margin: 3vh 0;
             }
+            h3 {
+                font-size: 1.6rem;
+            }
+    }
+    .banner-home-container {
+        background: url(../../../images/home/banner.JPG);   
+        background-size: cover;
+        background-attachment: fixed;
+    
+            .banner-home-content {
+                border-radius: 20px;
+                margin: 8vh;
+                padding: 6vh 8vh;
+                background-color: rgba(255, 255, 255, .4);
+                border: 3px solid $mainColor;
+            }
+            img {
+    
+                width: 250px;
+            }
+            a {
+                background: $mainColor;
+                padding: 5px 10px;
+                font-size: 1.6rem;
+                color: $white;
+                border-radius: 12px;
+                transition: .3s;
+                    &:hover {
+                        transform: scale(1.1);
+                        transition: .3s;
+                    }
+            }
+    }
+    
+    // Infrastructures : 
+    .infrastructure-container {
+        color: $mainColor;
+        li {
+            font-size: 1.4rem;
+            margin: 10px 0;
+        }
+        i {
+            margin-right: 0.5em;
+        }
     }
 }
 
@@ -67,11 +109,10 @@
 // dekstop : 
 @media(min-width: 768px) {
     .main-home {
-        .presentation-container {
-            margin: 15vh 0;
+        section {
+            margin-top: 15vh;
         }
         .quiSuisJe-container {
-            margin-top: 10vh;
     
             h1 {
                 margin-top: 0;
@@ -81,7 +122,6 @@
             }
         }
         .service-container {
-            margin-top: 10vh;
             padding: 10vh 5vh;
     
                 h1 {
@@ -91,5 +131,15 @@
                     margin: 5vh 0 3vh 0;
                 }
         }
+        .infrastructure-container {
+
+            li {
+                margin: 10px 0 10px 2em;
+            }
+            i {
+                margin-right: 1em;
+            }
+        }
+
     }
 }
