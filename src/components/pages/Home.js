@@ -41,8 +41,8 @@ const Home = () => {
                     </div>
                 </section>
 
-                <section className="row presentation-container">
-                    <div className="col-12 text-center p-0">
+                <section className="row presentation-container txt-container">
+                    <div className="col-12 text-center">
                         <p>
                             Les Ecuries de L'Ajot vous accueillent dans un cadre unique et authentique en Champagne-Ardenne. 
                             Le calme et la nature règnent dans cet ancien corps de ferme, longé par la Saulx, datant du début du 20ème siècle. Nous avons commencé à réaménagé les bâtiments il y a 4ans et nous les avons transformés en écuries, tout en conservant leur charme d’antan.
@@ -55,7 +55,7 @@ const Home = () => {
                 </section>
 
                 {/* Qui suis-je */}
-                <section className="row quiSuisJe-container">
+                <section className="row quiSuisJe-container border-radius-container">
                     <div className="col-12 col-md-6">
                         <img src={ quiSuisJe } alt="La photo de Bailly Marie" className="img img-fluid border-radius-right" />
                     </div>
@@ -63,7 +63,7 @@ const Home = () => {
                         <h1 className="font-title text-center pb-4 pt-md-5">
                             Qui suis-je ?
                         </h1>
-                        <div className="p-0 text-center text-md-start">
+                        <div className="p-0 text-center text-md-start txt-container">
                             <p>
                                 Fascinée depuis mon plus jeune âge par les chevaux, il m’est apparu très tôt comme une évidence d’orienter ma vie professionnelle dans ce domaine.
                             </p>

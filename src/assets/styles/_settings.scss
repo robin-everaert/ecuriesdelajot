@@ -1,6 +1,69 @@
+// Color : 
+$mainColor: #651106;
+$secondColor: #DA7D54;
+
+$white: #fff;
+$txtColor: $mainColor;
+$black: #333;
+
+$secondColorBack: rgba(217, 141, 98, 0.1);
+
+body {
+  background: $secondColorBack;
+}
+
 // Layout : 
 #main {
   margin-top: 5vh;
+}
+.main-home section, .main-stay section {
+    margin-top: 5vh;
+  
+}
+.txt-container {
+
+    p {
+      color: $mainColor;
+      font-size: 1.2rem;
+    }
+}
+.font-title {
+  color: $secondColor;
+  font-size: 1.6rem;
+}
+
+
+  h1 {
+    font-size: 2rem !important;
+    color: $mainColor !important;
+    margin-top: 5vh;
+  }
+
+@media(min-width: 768px) {
+  .main-home section, .main-stay section {
+      margin-top: 15vh;
+  }
+  .txt-container {
+
+    p {
+      font-size: 1.3rem;
+    }
+    .blocImageRightTxt {
+      padding-right: 15px !important;
+    }
+  }
+  h1 {
+    font-size: 3rem !important;
+    margin-top: 0;
+  }
+  .border-radius-container {
+
+
+      p {
+          padding-left: 2rem;
+      }
+  }
+
 }
 // Global: 
 html {
@@ -20,20 +83,11 @@ li {
     border-radius: 0 350px 0 0;
   }
 }
-
-
-$mainColor: #651106;
-$secondColor: #DA7D54;
-
-$white: #fff;
-$txtColor: $mainColor;
-$black: #333;
-
-$secondColorBack: rgba(217, 141, 98, 0.1);
-
-body {
-  background: $secondColorBack;
+.txt-important {
+  color: $mainColor;
+  text-align: center;
 }
+
 
 
 
@@ -60,18 +114,6 @@ html, body, header, main, footer {
 }
 
 
-// Font : 
-.txt-important {
-  color: $mainColor;
-  text-align: center;
-}
-.main-home {
-
-  p{
-    font-size: 1.2rem;
-    color: $txtColor;
-  }
-}
 
 
 
