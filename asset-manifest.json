@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/ecuriesdelajot/static/css/main.5a04300c.css",
-    "main.js": "/ecuriesdelajot/static/js/main.156463b6.js",
+    "main.css": "/ecuriesdelajot/static/css/main.11a5e42b.css",
+    "main.js": "/ecuriesdelajot/static/js/main.8694d9d6.js",
     "static/media/infrastructure2.JPG": "/ecuriesdelajot/static/media/infrastructure2.83792684ab68a5ff0774.JPG",
     "static/media/infrastructure3.JPG": "/ecuriesdelajot/static/media/infrastructure3.efbd250604bb224c227e.JPG",
     "static/media/infrastructure1.JPG": "/ecuriesdelajot/static/media/infrastructure1.1d3685cc03d933d78f39.JPG",
     "static/media/banner.JPG": "/ecuriesdelajot/static/media/banner.9595816f50d874582109.JPG",
+    "static/media/stretching.JPG": "/ecuriesdelajot/static/media/stretching.137bd189e0123337cdee.JPG",
     "static/media/accueil-section-1.jpg": "/ecuriesdelajot/static/media/accueil-section-1.681873ad77b0a8d86031.jpg",
+    "static/media/moment_a_pied.jpg": "/ecuriesdelajot/static/media/moment_a_pied.b42a8f2101d7d6bc8041.jpg",
+    "static/media/massage.JPG": "/ecuriesdelajot/static/media/massage.44ab127fa1dd0dcbdbd3.JPG",
+    "static/media/hydrotherapie.jpg": "/ecuriesdelajot/static/media/hydrotherapie.1525215e149c0df54101.jpg",
     "static/media/Trirong-Regular.ttf": "/ecuriesdelajot/static/media/Trirong-Regular.fe383db36671cca9ab40.ttf",
+    "static/media/aromathérapie.jpg": "/ecuriesdelajot/static/media/aromathérapie.dffb84c744feb2b3be1f.jpg",
     "static/media/qui-suis-je.jpg": "/ecuriesdelajot/static/media/qui-suis-je.9fc375ec8b5fa0be8042.jpg",
     "static/media/logo.png": "/ecuriesdelajot/static/media/logo.bac5419b83027795022a.png",
     "static/media/Oregano-Regular.ttf": "/ecuriesdelajot/static/media/Oregano-Regular.19f68c957af8e5b608f9.ttf",
     "static/media/logo-no-txt.png": "/ecuriesdelajot/static/media/logo-no-txt.faa7bc544f375dd93445.png",
     "static/media/line-coeur.png": "/ecuriesdelajot/static/media/line-coeur.b6e0c5238c7baf5c08e8.png",
     "index.html": "/ecuriesdelajot/index.html",
-    "main.5a04300c.css.map": "/ecuriesdelajot/static/css/main.5a04300c.css.map",
-    "main.156463b6.js.map": "/ecuriesdelajot/static/js/main.156463b6.js.map"
+    "main.11a5e42b.css.map": "/ecuriesdelajot/static/css/main.11a5e42b.css.map",
+    "main.8694d9d6.js.map": "/ecuriesdelajot/static/js/main.8694d9d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a04300c.css",
-    "static/js/main.156463b6.js"
+    "static/css/main.11a5e42b.css",
+    "static/js/main.8694d9d6.js"
   ]
 }
