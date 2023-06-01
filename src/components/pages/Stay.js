@@ -1,5 +1,6 @@
 import BlocImageLeft from "../BlocImageLeft";
 
+import imgTop from "../../assets/images/stay/img-top.jpg";
 import massage from "../../assets/images/stay/massage.JPG";
 import hydrotherapie from "../../assets/images/stay/hydrotherapie.jpg";
 import stretching from "../../assets/images/stay/stretching.JPG";
@@ -60,12 +61,12 @@ const detenteContent = [{
 
 const Stay = () => {
     return (
-        <main id="main" className="main main-stay" >
+        <main id="main" className="main main-stay">
             <div className="container">
                 <section className="row txt-container">
                     <div className="col-12 text-center">
-                        <h1>ICI IL FAUDRA UNE PHOTO</h1>
-                        <p>
+                        <img src={ imgTop } className="img img-fluid" alt="Deux chevaux qui sont au pré" />
+                        <p className="mt-4 mt-md-5">
                             Nos journées bien-être sont adaptées et personnalisées pour chaque cheval en fonction de son tempérament et de son histoire. La détente et la relaxation des chevaux est notre priorité.
                         </p>
                         <p>

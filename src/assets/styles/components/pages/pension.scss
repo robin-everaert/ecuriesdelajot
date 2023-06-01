@@ -1,0 +1,15 @@
+
+.main-pension {
+    h1 {
+        margin-top: 5vh;
+    }
+}
+
+
+@media(min-width: 768px) {
+    .main-pension {
+        h1 {
+            margin-top: 15vh;
+        }
+    }
+}

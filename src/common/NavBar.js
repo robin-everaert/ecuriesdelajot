@@ -21,16 +21,19 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse d-sm-flex justify-content-end text-end" id="navbarNav">
                 <ul className="navbar-nav w-100 d-flex justify-content-md-center flex-wrap">
                     <li className="nav-item active">
-                        <Link to="/home" className='btn btn-nav'>Accueil</Link>
+                        <Link to="/accueil" className='btn btn-nav'>Accueil</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/stay' className='btn btn-nav'>Séjour bien-être</Link>
+                        <Link to='/sejour-bien-etre' className='btn btn-nav'>Séjour bien-être</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/pension" className='btn btn-nav'>Pension débourrage</Link>
+                        <Link to="/pension-a-lannee" className='btn btn-nav'>Pension à l'année</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to="/pension-passagere" className='btn btn-nav'>Pension passagère</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/price" className='btn btn-nav'>Tarifs</Link>
+                        <Link to="/tarif" className='btn btn-nav'>Tarifs</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/contact" className='btn btn-nav'>Contact</Link>

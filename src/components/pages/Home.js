@@ -1,3 +1,5 @@
+import BlocThreeImages from "../BlocThreeImages";
+
 import logo from "../../assets/images/logo.png";
 import logoNoTxt from "../../assets/images/logo-no-txt.png";
 import lineCoeur from "../../assets/images/line-coeur.png";
@@ -6,6 +8,7 @@ import quiSuisJe from"../../assets/images/home/qui-suis-je.jpg";
 import infrastructure1 from "../../assets/images/home/infrastructure1.JPG";
 import infrastructure2 from "../../assets/images/home/infrastructure2.JPG";
 import infrastructure3 from "../../assets/images/home/infrastructure3.JPG";
+
 
 
 const Home = () => {
@@ -114,17 +117,9 @@ const Home = () => {
                 <section className="infrastructure-container">
                     <h1 className="font-title text-center">Mes infrastructures</h1>
                     <div className="row">
-                        <div className="col-12 col-md-4 mt-3 mt-md-4">
-                            <img src={ infrastructure1 } className="img img-fluid border-radius-left" alt="Une photo de la cour de l'écuries de l'Ajot" />
-                        </div>
-                        <div className="col-12 col-md-4 mt-3 mt-md-4">
-                            <img src={ infrastructure2 } className="img img-fluid" alt="Une photo de la carrière de l'écuries de l'Ajot" />
-                        </div>
-                        <div className="col-12 col-md-4 mt-3 mt-md-4">
-                            <img src={ infrastructure3 } className="img img-fluid border-radius-right" alt="Une photo de la cour de l'écuries de l'Ajot" />
-                        </div>
+                        <BlocThreeImages imgLeft={ infrastructure1 } imgCenter={ infrastructure2 } imgRight={ infrastructure3 } />
                     </div>
-                    <div className="row">
+                    <div className="row li-container">
                         <ul className="col-12 col-md-6 mt-5 pb-0 mb-0">
                             {
                                 infrastructureArray.slice(0, 5).map((m, i) => (
