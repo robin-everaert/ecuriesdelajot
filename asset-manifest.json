@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecuriesdelajot/static/css/main.a6086728.css",
-    "main.js": "/ecuriesdelajot/static/js/main.b98d7fe0.js",
+    "main.css": "/ecuriesdelajot/static/css/main.4c3ab77d.css",
+    "main.js": "/ecuriesdelajot/static/js/main.d5ec2cd5.js",
     "static/media/infrastructure2.JPG": "/ecuriesdelajot/static/media/infrastructure2.83792684ab68a5ff0774.JPG",
     "static/media/infrastructure3.JPG": "/ecuriesdelajot/static/media/infrastructure3.efbd250604bb224c227e.JPG",
     "static/media/infrastructure1.JPG": "/ecuriesdelajot/static/media/infrastructure1.1d3685cc03d933d78f39.JPG",
@@ -9,6 +9,7 @@
     "static/media/img-right.JPG": "/ecuriesdelajot/static/media/img-right.9ebed90e271dd46abc99.JPG",
     "static/media/banner.JPG": "/ecuriesdelajot/static/media/banner.9595816f50d874582109.JPG",
     "static/media/stretching.JPG": "/ecuriesdelajot/static/media/stretching.137bd189e0123337cdee.JPG",
+    "static/media/contact-banner.jpg": "/ecuriesdelajot/static/media/contact-banner.16d661035239a6702c7b.jpg",
     "static/media/accueil-section-1.jpg": "/ecuriesdelajot/static/media/accueil-section-1.681873ad77b0a8d86031.jpg",
     "static/media/moment_a_pied.jpg": "/ecuriesdelajot/static/media/moment_a_pied.b42a8f2101d7d6bc8041.jpg",
     "static/media/massage.JPG": "/ecuriesdelajot/static/media/massage.44ab127fa1dd0dcbdbd3.JPG",
@@ -25,11 +26,11 @@
     "static/media/logo-no-txt.png": "/ecuriesdelajot/static/media/logo-no-txt.faa7bc544f375dd93445.png",
     "static/media/line-coeur.png": "/ecuriesdelajot/static/media/line-coeur.b6e0c5238c7baf5c08e8.png",
     "index.html": "/ecuriesdelajot/index.html",
-    "main.a6086728.css.map": "/ecuriesdelajot/static/css/main.a6086728.css.map",
-    "main.b98d7fe0.js.map": "/ecuriesdelajot/static/js/main.b98d7fe0.js.map"
+    "main.4c3ab77d.css.map": "/ecuriesdelajot/static/css/main.4c3ab77d.css.map",
+    "main.d5ec2cd5.js.map": "/ecuriesdelajot/static/js/main.d5ec2cd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6086728.css",
-    "static/js/main.b98d7fe0.js"
+    "static/css/main.4c3ab77d.css",
+    "static/js/main.d5ec2cd5.js"
   ]
 }
