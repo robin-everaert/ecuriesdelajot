@@ -65,7 +65,7 @@ const Stay = () => {
             <div className="container">
                 <section className="row txt-container">
                     <div className="col-12 text-center">
-                        <img src={ imgTop } className="img img-fluid" alt="Deux chevaux qui sont au pré" />
+                        <img src={ imgTop } className="img img-fluid b-radius" alt="Deux chevaux qui sont au pré" />
                         <p className="mt-4 mt-md-5">
                             Nos journées bien-être sont adaptées et personnalisées pour chaque cheval en fonction de son tempérament et de son histoire. La détente et la relaxation des chevaux est notre priorité.
                         </p>

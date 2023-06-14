@@ -1,5 +1,7 @@
 import BlocThreeImages from "../BlocThreeImages";
 
+import { infrastructureArray } from "../../assets/js/data";
+
 import logo from "../../assets/images/logo.png";
 import logoNoTxt from "../../assets/images/logo-no-txt.png";
 import lineCoeur from "../../assets/images/line-coeur.png";
@@ -9,22 +11,8 @@ import infrastructure1 from "../../assets/images/home/infrastructure1.JPG";
 import infrastructure2 from "../../assets/images/home/infrastructure2.JPG";
 import infrastructure3 from "../../assets/images/home/infrastructure3.JPG";
 
-
-
 const Home = () => {
 
-    const infrastructureArray = [
-        "Box de 5*3 avec un paddock individuel de 7*3.",
-        "Box intérieurs de 9*3m30.",
-        "Carrière en sable de 25*35",
-        "Manège de 40*20",
-        "8 hectares de pâtures",
-        "Douche avec eau chaude",
-        "Casiers individuels avec anneaux d'attache à côté.",
-        "Club House",
-        "Pièce sellerie",
-        "Casier individuel",
-    ]
     return (
             <main id="main" className="main main-home">
 
@@ -36,7 +24,7 @@ const Home = () => {
                             <h1 className="fontTitle">Écuries de l'Ajot</h1>
                             <h2 className="fontTitle">Pensions pour chevaux</h2>
                         </div>
-                        <img src={ lineCoeur } className="img img-fluid line-coeur" alt="Une dessin avec un coeur" />
+                        <img src={ lineCoeur } className="img img-fluid line-coeur" alt="Un dessin avec un coeur" />
                         
                     </div>
                     <div className="col-12 col-md-6 mt-5 mt-md-0">

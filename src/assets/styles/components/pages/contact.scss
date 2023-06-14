@@ -1,0 +1,98 @@
+
+
+// Bubble : 
+.bubble-contact-content {
+    color: $mainColor;
+    transition: all .3s;
+    
+        &:hover {
+            transform: scale(1.1);
+            color: $mainColor;
+            transition: all .3s;
+        }
+
+        i {
+            font-size: 2em;
+            margin-top: 1em;
+        }
+        span {
+            margin-top: 1em;
+            font-size: 1.1rem;
+        }
+}
+
+// Form : 
+#form-contact {
+    background: $white;
+    border: 3px solid $mainColor;
+    padding: 2em;
+    margin-top: 6vh;
+
+    .container-input input, .container-msg textarea, .btn-submit {
+        color: $white;
+        border: 0;
+        background: $mainColor;
+        font-size: 1.1rem;
+
+            &::placeholder {
+                color: $white;
+            }
+    }
+        .container-input {
+
+            input {
+                margin-top: 1em;
+                padding: 0.7em;  
+            }
+    }
+    .btn-submit {
+        color: $white;
+        padding: 10px 2em;
+        border-radius: 8px;
+    }
+}
+
+// Banner : 
+.banner-contact {
+    margin-top: 15vh !important;
+    height: 40vh !important;
+    background: url(../../../images/contact/contact-banner.jpg);   
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+// Partenaire : 
+.partenaire {
+    font-size: 6em;
+    height: 80vh;
+}
+
+@media(min-width: 768px) {
+    #main-contact {
+        padding-top: 10vh !important;
+    }
+    // Bubble : 
+    .bubble-contact-content {
+            i {
+                font-size: 3em;
+            }
+            span {
+                margin-top: 1em;
+                font-size: 1.4rem;
+            }
+    }
+    #form-contact {
+        border-radius: 8px;
+
+
+            input {
+                margin: 0 1em;
+            }
+    }
+        .container-msg {
+            textarea {
+                width: 60%;
+            }
+    }
+}
+

@@ -10,4 +10,5 @@ https://robin-everaert.github.io/ecuriesdelajot/
 
 ### Librairies utilisées :
 * React-router-dom: V6.8.1
+* Formulaire de contact : EmailJs V3.11.0
 * Style: Bootsrap V5.2.3 / sass V1.58.3

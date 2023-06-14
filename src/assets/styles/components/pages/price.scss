@@ -1,0 +1,44 @@
+
+.price-table-container {
+
+}
+
+.price-table-content {
+    color: $mainColor;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+
+        .price-table-header  {
+            background: $mainColor;
+            border-radius: 20px 20px 0 0 ;
+            padding: 10px;
+
+                h2 {
+                    color: $white;
+                }
+        }
+        .price-table-body {
+            border: 3px solid $mainColor;
+
+            h3 {
+                font-size: 1.2rem;
+            }
+            span {
+                font-size: 1.2rem;
+            }
+            img {
+                width: 280px;
+            }
+            .separator {
+                width: 30%;
+                height: 2px;
+                background: $mainColor;
+            }
+
+        }
+
+
+
+
+}

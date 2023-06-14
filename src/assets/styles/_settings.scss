@@ -16,7 +16,7 @@ body {
 #main {
   margin-top: 5vh;
 }
-.main-home section, .main-stay section, .main-yearPension section, .main-temporaryPension section {
+.main-home section, .main-stay section, .main-yearPension section, .main-temporaryPension section, .main-contact section {
     margin-top: 5vh;
   
 }
@@ -50,6 +50,9 @@ body {
     font-size: 2rem !important;
     color: $mainColor !important;
     margin-top: 5vh;
+  }
+  h2 {
+    color: $mainColor;
   }
 
 @media(min-width: 768px) {
@@ -107,6 +110,9 @@ li {
 .txt-important {
   color: $mainColor;
   text-align: center;
+}
+.b-radius {
+  border-radius: 18px;
 }
 
 
