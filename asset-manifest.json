@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ecuriesdelajot/static/css/main.9c2b0d27.css",
-    "main.js": "/ecuriesdelajot/static/js/main.18c1f443.js",
+    "main.css": "/ecuriesdelajot/static/css/main.77ff345c.css",
+    "main.js": "/ecuriesdelajot/static/js/main.79803944.js",
     "static/media/infrastructure2.JPG": "/ecuriesdelajot/static/media/infrastructure2.83792684ab68a5ff0774.JPG",
     "static/media/infrastructure3.JPG": "/ecuriesdelajot/static/media/infrastructure3.efbd250604bb224c227e.JPG",
     "static/media/infrastructure1.JPG": "/ecuriesdelajot/static/media/infrastructure1.1d3685cc03d933d78f39.JPG",
-    "static/media/img-left.JPG": "/ecuriesdelajot/static/media/img-left.943120e901d51724d08a.JPG",
-    "static/media/img-right.JPG": "/ecuriesdelajot/static/media/img-right.9ebed90e271dd46abc99.JPG",
+    "static/media/img-left-t.JPG": "/ecuriesdelajot/static/media/img-left-t.943120e901d51724d08a.JPG",
+    "static/media/img-right-t.JPG": "/ecuriesdelajot/static/media/img-right-t.9ebed90e271dd46abc99.JPG",
     "static/media/banner.JPG": "/ecuriesdelajot/static/media/banner.9595816f50d874582109.JPG",
     "static/media/stretching.JPG": "/ecuriesdelajot/static/media/stretching.137bd189e0123337cdee.JPG",
     "static/media/contact-banner.jpg": "/ecuriesdelajot/static/media/contact-banner.16d661035239a6702c7b.jpg",
     "static/media/accueil-section-1.jpg": "/ecuriesdelajot/static/media/accueil-section-1.681873ad77b0a8d86031.jpg",
     "static/media/moment_a_pied.jpg": "/ecuriesdelajot/static/media/moment_a_pied.b42a8f2101d7d6bc8041.jpg",
     "static/media/massage.JPG": "/ecuriesdelajot/static/media/massage.44ab127fa1dd0dcbdbd3.JPG",
+    "static/media/img-center-t.jpg": "/ecuriesdelajot/static/media/img-center-t.1bcfe5ed49f26f46037b.jpg",
     "static/media/img-center.jpg": "/ecuriesdelajot/static/media/img-center.e042b8460082ee8ab1e8.jpg",
     "static/media/hydrotherapie.jpg": "/ecuriesdelajot/static/media/hydrotherapie.1525215e149c0df54101.jpg",
     "static/media/Trirong-Regular.ttf": "/ecuriesdelajot/static/media/Trirong-Regular.fe383db36671cca9ab40.ttf",
     "static/media/aromathérapie.jpg": "/ecuriesdelajot/static/media/aromathérapie.dffb84c744feb2b3be1f.jpg",
     "static/media/qui-suis-je.jpg": "/ecuriesdelajot/static/media/qui-suis-je.9fc375ec8b5fa0be8042.jpg",
-    "static/media/img-top.jpg": "/ecuriesdelajot/static/media/img-top.04954bdbe8095882389a.jpg",
     "static/media/logo.png": "/ecuriesdelajot/static/media/logo.bac5419b83027795022a.png",
     "static/media/Oregano-Regular.ttf": "/ecuriesdelajot/static/media/Oregano-Regular.19f68c957af8e5b608f9.ttf",
     "static/media/img-left.jpg": "/ecuriesdelajot/static/media/img-left.142bffcd66fc2f1757b0.jpg",
@@ -26,11 +26,11 @@
     "static/media/logo-no-txt.png": "/ecuriesdelajot/static/media/logo-no-txt.faa7bc544f375dd93445.png",
     "static/media/line-coeur.png": "/ecuriesdelajot/static/media/line-coeur.b6e0c5238c7baf5c08e8.png",
     "index.html": "/ecuriesdelajot/index.html",
-    "main.9c2b0d27.css.map": "/ecuriesdelajot/static/css/main.9c2b0d27.css.map",
-    "main.18c1f443.js.map": "/ecuriesdelajot/static/js/main.18c1f443.js.map"
+    "main.77ff345c.css.map": "/ecuriesdelajot/static/css/main.77ff345c.css.map",
+    "main.79803944.js.map": "/ecuriesdelajot/static/js/main.79803944.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c2b0d27.css",
-    "static/js/main.18c1f443.js"
+    "static/css/main.77ff345c.css",
+    "static/js/main.79803944.js"
   ]
 }
