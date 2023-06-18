@@ -24,13 +24,13 @@ const NavBar = () => {
                         <Link to="/accueil" className='btn btn-nav'>Accueil</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/sejour-bien-etre' className='btn btn-nav'>Séjour bien-être</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/pension-a-lannee" className='btn btn-nav'>Pension à l'année</Link>
+                        <Link to="/pension" className='btn btn-nav'>Pensions</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="/pension-passagere" className='btn btn-nav'>Pension passagère</Link>
+                        <Link to="/education" className='btn btn-nav'>Education du cheval</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to='/sejour-bien-etre' className='btn btn-nav'>Séjour bien-être</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="/tarif" className='btn btn-nav'>Tarifs</Link>
