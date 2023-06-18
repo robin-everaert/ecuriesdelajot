@@ -19,7 +19,7 @@ const priceTablesArray = [
     // Pension annuelle :
     {
       title: "Pensions",
-      item: ["Shetlands – Poneys A", "Poneys B et C", "Poneys D et chevaux", "Adhésion annuelle",],
+      item: ["Shetlands – Poneys A", "Poneys B et C", "Poneys D et chevaux", "Adhésion annuelle", "Licence FFE (obligatoire)"],
       price: ["120€ par mois", "155€ par mois", "190€ par mois", "20€",],
       img: line,
     },
@@ -38,8 +38,8 @@ const priceTablesArray = [
     },
     {
       title: "Prestations",
-      item: ["Cours (cavalier non adhérent) 1h", "Location installation (hors pension)", "Adhésion annuelle (pour avoir accès au tarif des pensions à l’année)",],
-      price: ["20€", "5€ la séance", "60€"],
+      item: ["Cours (cavalier non adhérent) 1h", "Cours (cavalier non adhérent) 1h", "Location installation (hors pension)", "Adhésion annuelle (pour avoir accès au tarif des pensions à l’année)",],
+      price: ["20€", "25€", "5€ la séance", "60€"],
       img: line,
     },
     // Autres prestations : 
@@ -51,8 +51,8 @@ const priceTablesArray = [
     },
     {
       title: "Prestations à domicile",
-      item: ["Cours particulier", "Massage avec complément stretching adapté", "Supplément massage huile essentielle", "Aromathérapie / Stretching / séance à pied",],
-      price: ["30€", "50€", "5€", "35€",],
+      item: ["Cours particulier", "Massage avec complément stretching adapté", "Supplément massage huile essentielle", "Aromathérapie / Stretching / séance à pied", "Travail du cheval"],
+      price: ["30€", "50€", "5€", "35€", "40€"],
       img: line,
     },
   ];

@@ -72,7 +72,7 @@ const Home = () => {
                 </section>
 
                 {/* Mes services */}
-                <section className="row service-container text-center">
+                <section className="row service-container text-center border-container">
                     <h1 className="font-title text-center">Mes Services</h1>
                     <a href="#" className="col-12 col-md-3">
                         <img src={ logoNoTxt } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
