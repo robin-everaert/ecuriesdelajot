@@ -2,7 +2,7 @@ import line from "../images/line.png";
 import massage from "../images/stay/massage.JPG";
 import hydrotherapie from "../images/stay/hydrotherapie.jpg";
 import stretching from "../images/stay/stretching.JPG";
-import aromatherapie from "../images/stay/aromathérapie.jpg";
+import aromatherapie from "../images/stay/aromatherapie.jpg";
 import detente from "../images/stay/moment_a_pied.jpg";
 
 // Home Data : 
@@ -91,7 +91,7 @@ const priceTablesArray = [
     },
     {
       title: "Prestations",
-      item: ["Cours (cavalier non adhérent) 1h", "Cours (cavalier non adhérent) 1h", "Location installation (hors pension)", "Adhésion annuelle (pour avoir accès au tarif des pensions à l’année)",],
+      item: ["Cours (cavalier non adhérent) 1h", "Travail du cheval", "Location installation (hors pension)", "Adhésion annuelle (pour avoir accès au tarif des pensions à l’année)",],
       price: ["20€", "25€", "5€ la séance", "60€"],
       img: line,
     },

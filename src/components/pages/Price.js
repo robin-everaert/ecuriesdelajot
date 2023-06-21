@@ -20,7 +20,7 @@ const Price = () => {
                         }       
                     </div>      
 
-                    <h2 className="text-center p-4">Pensions passagères et prestations</h2>   
+                    <h2 className="text-center p-4">pensions courte durée et prestations</h2>   
                     <div className="row">
                         {
                             priceTablesArray.slice(2, 4).map((p, i) => (

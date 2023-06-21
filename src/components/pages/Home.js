@@ -6,7 +6,10 @@ import logo from "../../assets/images/logo.png";
 import logoNoTxt from "../../assets/images/logo-no-txt.png";
 import lineCoeur from "../../assets/images/line-coeur.png";
 import accueilSection1 from "../../assets/images/home/accueil-section-1.jpg"
-import quiSuisJe from"../../assets/images/home/qui-suis-je.jpg";
+import quiSuisJe from "../../assets/images/home/qui-suis-je.jpg";
+import servicePension from "../../assets/images/home/service-pension.jpeg";
+import serviceEducation from "../../assets/images/home/service-education.jpg";
+import serviceSejour from "../../assets/images/home/service-sejour.JPG";
 import infrastructure1 from "../../assets/images/home/infrastructure1.JPG";
 import infrastructure2 from "../../assets/images/home/infrastructure2.JPG";
 import infrastructure3 from "../../assets/images/home/infrastructure3.JPG";
@@ -22,7 +25,6 @@ const Home = () => {
                         <img src={ logoNoTxt } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
                         <div className="txt-section1-container text-center">
                             <h1 className="fontTitle">Écuries de l'Ajot</h1>
-                            <h2 className="fontTitle">Pensions pour chevaux</h2>
                         </div>
                         <img src={ lineCoeur } className="img img-fluid line-coeur" alt="Un dessin avec un coeur" />
                         
@@ -34,13 +36,14 @@ const Home = () => {
 
                 <section className="row presentation-container txt-container">
                     <div className="col-12 text-center">
-                        <p>
-                            Les Ecuries de L'Ajot vous accueillent dans un cadre unique et authentique en Champagne-Ardenne. 
-                            Le calme et la nature règnent dans cet ancien corps de ferme, longé par la Saulx, datant du début du 20ème siècle. Nous avons commencé à réaménagé les bâtiments il y a 4ans et nous les avons transformés en écuries, tout en conservant leur charme d’antan.
+                        <p className="fst-italic">
+                            Les chevaux partagent la vie des hommes depuis plusieurs millénaires et de nos jours, on ne les élève plus que pour nos loisirs et donc notre plaisir. Il est de notre devoir de faire en sorte que nos chevaux tirent, eux aussi, profit de cette interaction entre les espèces. 
                         </p>
                         <p>
-                            Nous vous proposons diverses formes de pensions dans une ambiance agréable, axée sur l’entraide et le respect de chacun. Notre objectif premier est le bien-être des
-                            chevaux et nous aspirons chaque jour  à les aider à se sentir bien, en combinant le confort que peut apporter une structure avec la conservation autant que possible, de leurs habitudes naturelles et instinctives. 
+                            Les Ecuries de L'Ajot vous accueillent dans un cadre unique et authentique en Champagne-Ardenne. Le calme et la nature règnent dans cet ancien corps de ferme, longé par la Saulx et datant du début du 20ème siècle. Nous avons commencé à réaménager les bâtiments il y a 4 ans et nous les avons transformés en écuries, tout en conservant leur charme d’antan.
+                        </p>
+                        <p>
+                            Diverses prestations sont disponibles aux écuries : pension, éducation du cheval et séjour bien-être. Notre objectif premier reste la compréhension et le bien-être des chevaux, quel que soit le service proposé et nous aspirons chaque jour à les aider à se sentir au mieux, tout en conservant au maximum leurs besoins naturels.
                         </p>
                     </div>
                 </section>
@@ -59,13 +62,13 @@ const Home = () => {
                                 Fascinée depuis mon plus jeune âge par les chevaux, il m’est apparu très tôt comme une évidence d’orienter ma vie professionnelle dans ce domaine.
                             </p>
                             <p>
-                                J’ai commencé en obtenant mon BPJEPS en 2010 puis j’ai multiplié les expériences professionnelles en tant que cavalière et monitrice indépendante, tout en continuant à approfondir mes connaissances en suivant diverses formations (éthologie, auxiliaire vétérinaire équin, aromathérapie équine).
+                                J’ai commencé en obtenant mon BPJEPS en 2010 puis j’ai multiplié les expériences professionnelles en tant que cavalière et monitrice indépendante, tout en continuant à approfondir mes connaissances en suivant diverses formations, principalement en éthologie (domaine que je continue d’approfondir chaque jour), mais aussi en participant à d’autres formations : auxiliaire vétérinaire équin, aromathérapie équine, algothérapie, stretching.
                             </p>
-                            <p className="font-title text-center">
+                            <p className="fw-bold">
                                 Plus qu’une passion, c’est devenue une vocation…
                             </p>
                             <p>
-                            Soutenue par mon équipe, c’est tout naturellement que je poursuis l’aventure pour que l’on puisse avancer ensemble vers une équitation d’avenir basée sur un partenariat et une relation saine avec nos chevaux sans aucune forme de soumission mais avec des bases solides d’éducation, de confiance et d’interaction.
+                            Soutenue par mon équipe, c’est tout naturellement que je poursuis l’aventure pour que l’on puisse avancer ensemble vers une équitation d’avenir basée sur un partenariat et une relation saine avec nos chevaux sans aucune forme de soumission mais avec des bases solides d’éducation, de confiance et de connexion.
                             </p>
                         </div>
                     </div>     
@@ -74,20 +77,16 @@ const Home = () => {
                 {/* Mes services */}
                 <section className="row service-container text-center border-container">
                     <h1 className="font-title text-center">Mes Services</h1>
-                    <a href="#" className="col-12 col-md-3">
-                        <img src={ logoNoTxt } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
-                        <h3 className="font-title">Pension à l'année</h3>
+                    <a href="#" className="col-12 col-md-4">
+                        <img src={ servicePension } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
+                        <h3 className="font-title">Pensions</h3>
                     </a>
-                    <a href="#" className="col-12 col-md-3">
-                        <img src={ logoNoTxt } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
-                        <h3 className="font-title">Pension passagère</h3>
+                    <a href="#" className="col-12 col-md-4">
+                        <img src={ serviceEducation } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
+                        <h3 className="font-title">Éducation</h3>
                     </a>
-                    <a href="#" className="col-12 col-md-3">
-                        <img src={ logoNoTxt } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
-                        <h3 className="font-title">Pension débourrage</h3>
-                    </a>
-                    <a href="#" className="col-12 col-md-3">
-                        <img src={ logoNoTxt } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
+                    <a href="#" className="col-12 col-md-4">
+                        <img src={ serviceSejour } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
                         <h3 className="font-title">Séjour bien-être</h3>
                     </a>
                 </section>
