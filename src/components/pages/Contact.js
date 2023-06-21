@@ -1,11 +1,16 @@
 import FormContact from '../FormContact';
 import line from "../../assets/images/line.png";
+import contactBottom from "../../assets/images/contact/contact-bottom.jpg";
 
 const Contact = () => {
     return (
         <main id="main-contact" className='main main-contact'>
             <h1 className='text-center'>Contactez-moi</h1>
 
+            <div className="d-flex justify-content-center mt-5">
+                <img src={ contactBottom } className='img img-fluid b-radius w-md-50' alt="" />
+            </div>
+            
             {/* Bubble */}
             <section className="container bubble-contact-container">
                 <div className="row justify-content-around align-items-center">
