@@ -4,8 +4,8 @@ import imgLeft from "../../assets/images/yearPension/img-left.jpg";
 import imgCenter from "../../assets/images/yearPension/img-center.jpg";
 import imgRight from "../../assets/images/yearPension/img-right.jpg";
 import imgLeftT from "../../assets/images/yearPension/img-left-t.JPG";
-import imgCenterT from "../../assets/images/yearPension/img-center-t.jpg";
-import imgRightT from "../../assets/images/yearPension/img-right-t.JPG";
+import imgCenterT from "../../assets/images/yearPension/img-center-t.JPG";
+import imgRightT from "../../assets/images/yearPension/img-right-t.jpg";
 
 
 const YearPension = () => {

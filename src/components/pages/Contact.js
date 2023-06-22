@@ -50,7 +50,7 @@ const Contact = () => {
                 <h1 className='text-center'>Mes partenaires</h1>
                 <div className="row mt-5">
                     <div className="col-12 partner-content border-container">
-                        <h2 className='text-center'>Amelie August Massage equin</h2>
+                        <h2 className='text-center'>Amelie Auguste Massage manuelle équine</h2>
                             <div className="container-link-partner d-flex flex-column justify-content-around align-items-center">
                                 <a href="tel:0681399757" className="d-flex flex-column justify-content-center align-items-center">
                                     <i class="fa-solid fa-phone"></i>
@@ -66,6 +66,40 @@ const Contact = () => {
                                 </a>
                             </div>               
                     </div>
+                </div>
+            </section>
+
+            {/* Partenaire 2 */}
+
+            <section className="container partner mt-0 mt-md-5">
+                <div className="row mt-5">
+                    <ul className="col-12 partner-content container-link-partner container-link-partner-2 border-container d-flex flex-column flex-md-row justify-content-between align-items-center align-items-md-start text-center">
+                        <li className='d-flex flex-column justify-content-center align-items-center m-3'>
+                            <i class="fa-solid fa-horse"></i>
+                            <span>   
+                                <a href="https://saddlefittinglorraine.fr/" class="span-saddle">Saddle fitting Lorraine</a>
+                            </span>
+                        </li>
+                        <li className='d-flex flex-column justify-content-center align-items-center m-3'>
+                            <i class="fa-solid fa-horse"></i>
+                            <span>
+                                Rémi Champion "ostéopathe équin"<br />
+                                <a href="tel:0689345402">0689345402</a>
+                            </span>
+                        </li>
+                        <li className='d-flex flex-column justify-content-center align-items-center m-3'>
+                            <i class="fa-solid fa-horse"></i>
+                            <span>
+                                Christian Briquet "dentiste équin"<br /> <a href="0675742348">0675742348</a>
+                            </span>
+                        </li>
+                        <li className='d-flex flex-column justify-content-center align-items-center m-3'>
+                            <i class="fa-solid fa-horse"></i>
+                            <span>
+                                prestation podologie disponible sur place
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </section>
 

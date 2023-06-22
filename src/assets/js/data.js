@@ -85,7 +85,7 @@ const priceTablesArray = [
     // Pension passagère :
     {
       title: "Pensions",
-      item: ["Pension débourrage / rééducation", "24 heures", "3 jours", "1 semaine",],
+      item: ["Pension débourrage / rééducation", "Pension 24 heures", "Pension 3 jours", "Pension 1 semaine",],
       price: ["Sur devis", "10€", "25€", "60€",],
       img: line,
     },
