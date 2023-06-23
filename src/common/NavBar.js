@@ -1,16 +1,6 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
-
-    // active Link: 
-    const navLinks = document.querySelectorAll('.nav-item');
-
-    navLinks.forEach(link => {
-        link.addEventListener('click', function() {
-        navLinks.forEach(navLink => navLink.classList.remove('active'));
-        this.classList.add('active');
-        });
-    });
 
     return (
         <nav id="navBar" className="navbar navbar-expand-sm mt-3 mt-md-3">
@@ -21,22 +11,22 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse d-sm-flex justify-content-end text-end" id="navbarNav">
                 <ul className="navbar-nav w-100 d-flex justify-content-md-center flex-wrap">
                     <li className="nav-item active">
-                        <Link to="/accueil" className='btn btn-nav'>Accueil</Link>
+                        <NavLink to="/accueil" className='btn btn-nav'>Accueil</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to="/pension" className='btn btn-nav'>Pensions</Link>
+                        <NavLink to="/pension" className='btn btn-nav'>Pensions</NavLink>
                     </li>
                     <li className='nav-item'>
-                        <Link to="/education" className='btn btn-nav'>Éducation du cheval</Link>
+                        <NavLink to="/education" className='btn btn-nav'>Éducation du cheval</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to='/sejour-bien-etre' className='btn btn-nav'>Séjour bien-être</Link>
+                        <NavLink to='/sejour-bien-etre' className='btn btn-nav'>Séjour bien-être</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to="/tarif" className='btn btn-nav'>Tarifs</Link>
+                        <NavLink to="/tarif" className='btn btn-nav'>Tarifs</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link to="/contact" className='btn btn-nav'>Contact</Link>
+                        <NavLink to="/contact" className='btn btn-nav'>Contact</NavLink>
                     </li>
                 </ul>
                 </div>

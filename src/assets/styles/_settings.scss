@@ -58,10 +58,10 @@ h1 {
 h2 {
   color: $secondColor;
 }
+
 .nav-item.active a {
   color: $secondColor !important;
 }
-
 
 @media(min-width: 768px) {
   .main-home section, .main-stay section {

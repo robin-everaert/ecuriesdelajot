@@ -96,7 +96,7 @@ const Contact = () => {
                         <li className='d-flex flex-column justify-content-center align-items-center m-3'>
                             <i className="fa-solid fa-horse"></i>
                             <span>
-                                prestation podologie disponible sur place
+                                Prestation podologie disponible sur place
                             </span>
                         </li>
                     </ul>
