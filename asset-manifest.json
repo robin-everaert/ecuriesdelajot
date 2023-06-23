@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecuriesdelajot/static/css/main.6cc26a91.css",
-    "main.js": "/ecuriesdelajot/static/js/main.51c7c7fa.js",
+    "main.css": "/ecuriesdelajot/static/css/main.15b8cf82.css",
+    "main.js": "/ecuriesdelajot/static/js/main.654ac517.js",
     "static/media/infrastructure3.JPG": "/ecuriesdelajot/static/media/infrastructure3.98653748f41695f4ad6f.JPG",
     "static/media/infrastructure2.JPG": "/ecuriesdelajot/static/media/infrastructure2.83792684ab68a5ff0774.JPG",
     "static/media/service-pension.jpeg": "/ecuriesdelajot/static/media/service-pension.bedccdc3002e45d23e48.jpeg",
@@ -26,18 +26,18 @@
     "static/media/qui-suis-je.jpg": "/ecuriesdelajot/static/media/qui-suis-je.9fc375ec8b5fa0be8042.jpg",
     "static/media/img-center.jpg": "/ecuriesdelajot/static/media/img-center.04294d9c262ef8f0c96c.jpg",
     "static/media/aromatherapie.jpg": "/ecuriesdelajot/static/media/aromatherapie.6134125cded33edca181.jpg",
-    "static/media/contact-bottom.jpg": "/ecuriesdelajot/static/media/contact-bottom.9052ec3b9cd3823b0136.jpg",
+    "static/media/contact-top.jpg": "/ecuriesdelajot/static/media/contact-top.9052ec3b9cd3823b0136.jpg",
     "static/media/logo.png": "/ecuriesdelajot/static/media/logo.bac5419b83027795022a.png",
     "static/media/Oregano-Regular.ttf": "/ecuriesdelajot/static/media/Oregano-Regular.19f68c957af8e5b608f9.ttf",
     "static/media/img-left.jpg": "/ecuriesdelajot/static/media/img-left.c8d5c9f4a5dce0d663e7.jpg",
     "static/media/logo-no-txt.png": "/ecuriesdelajot/static/media/logo-no-txt.faa7bc544f375dd93445.png",
     "static/media/line-coeur.png": "/ecuriesdelajot/static/media/line-coeur.b6e0c5238c7baf5c08e8.png",
     "index.html": "/ecuriesdelajot/index.html",
-    "main.6cc26a91.css.map": "/ecuriesdelajot/static/css/main.6cc26a91.css.map",
-    "main.51c7c7fa.js.map": "/ecuriesdelajot/static/js/main.51c7c7fa.js.map"
+    "main.15b8cf82.css.map": "/ecuriesdelajot/static/css/main.15b8cf82.css.map",
+    "main.654ac517.js.map": "/ecuriesdelajot/static/js/main.654ac517.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cc26a91.css",
-    "static/js/main.51c7c7fa.js"
+    "static/css/main.15b8cf82.css",
+    "static/js/main.654ac517.js"
   ]
 }
