@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/ecuriesdelajot/static/css/main.f16976fa.css",
-    "main.js": "/ecuriesdelajot/static/js/main.ba06e88f.js",
+    "main.css": "/ecuriesdelajot/static/css/main.6cc26a91.css",
+    "main.js": "/ecuriesdelajot/static/js/main.51c7c7fa.js",
     "static/media/infrastructure3.JPG": "/ecuriesdelajot/static/media/infrastructure3.98653748f41695f4ad6f.JPG",
     "static/media/infrastructure2.JPG": "/ecuriesdelajot/static/media/infrastructure2.83792684ab68a5ff0774.JPG",
     "static/media/service-pension.jpeg": "/ecuriesdelajot/static/media/service-pension.bedccdc3002e45d23e48.jpeg",
     "static/media/infrastructure1.JPG": "/ecuriesdelajot/static/media/infrastructure1.1d3685cc03d933d78f39.JPG",
-    "static/media/img-left-t.JPG": "/ecuriesdelajot/static/media/img-left-t.943120e901d51724d08a.JPG",
     "static/media/manipulation.JPG": "/ecuriesdelajot/static/media/manipulation.943120e901d51724d08a.JPG",
     "static/media/debourrage.JPG": "/ecuriesdelajot/static/media/debourrage.9ebed90e271dd46abc99.JPG",
     "static/media/banner.JPG": "/ecuriesdelajot/static/media/banner.9595816f50d874582109.JPG",
@@ -20,6 +19,7 @@
     "static/media/img-right-t.jpg": "/ecuriesdelajot/static/media/img-right-t.8e45a580d55067c701e1.jpg",
     "static/media/service-education.jpg": "/ecuriesdelajot/static/media/service-education.e206188bf8e64c96dc53.jpg",
     "static/media/massage.JPG": "/ecuriesdelajot/static/media/massage.44ab127fa1dd0dcbdbd3.JPG",
+    "static/media/img-left-t.jpg": "/ecuriesdelajot/static/media/img-left-t.1bcfe5ed49f26f46037b.jpg",
     "static/media/hydrotherapie.jpg": "/ecuriesdelajot/static/media/hydrotherapie.1525215e149c0df54101.jpg",
     "static/media/Trirong-Regular.ttf": "/ecuriesdelajot/static/media/Trirong-Regular.fe383db36671cca9ab40.ttf",
     "static/media/accueil-section-1.jpg": "/ecuriesdelajot/static/media/accueil-section-1.f55ac1f3c49f8e6b19c9.jpg",
@@ -33,11 +33,11 @@
     "static/media/logo-no-txt.png": "/ecuriesdelajot/static/media/logo-no-txt.faa7bc544f375dd93445.png",
     "static/media/line-coeur.png": "/ecuriesdelajot/static/media/line-coeur.b6e0c5238c7baf5c08e8.png",
     "index.html": "/ecuriesdelajot/index.html",
-    "main.f16976fa.css.map": "/ecuriesdelajot/static/css/main.f16976fa.css.map",
-    "main.ba06e88f.js.map": "/ecuriesdelajot/static/js/main.ba06e88f.js.map"
+    "main.6cc26a91.css.map": "/ecuriesdelajot/static/css/main.6cc26a91.css.map",
+    "main.51c7c7fa.js.map": "/ecuriesdelajot/static/js/main.51c7c7fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.f16976fa.css",
-    "static/js/main.ba06e88f.js"
+    "static/css/main.6cc26a91.css",
+    "static/js/main.51c7c7fa.js"
   ]
 }
