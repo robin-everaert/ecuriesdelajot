@@ -30,14 +30,14 @@ const FormContact = () => {
 
     return (
             <form ref={ form } onSubmit={ sendEmail } id="form-contact" className="form-contact border-container">
-                <div class="container-input mb-3 d-flex flex-column flex-md-row justify-content-center align-items-center">
-                    <input type="text" name="name" class="form-control" id="nameInput" placeholder="Prénom *" required autoComplete='off' />
-                    <input type="email" name="email" class="form-control" id="telInput" placeholder="Adresse Email *" required autoComplete='off' />
-                    <input type="tel" name="phone" class="form-control" id="mailInput" placeholder="Téléphone" autoComplete='off' />
+                <div className="container-input mb-3 d-flex flex-column flex-md-row justify-content-center align-items-center">
+                    <input type="text" name="name" className="form-control" id="nameInput" placeholder="Prénom *" required autoComplete='off' />
+                    <input type="email" name="email" className="form-control" id="telInput" placeholder="Adresse Email *" required autoComplete='off' />
+                    <input type="tel" name="phone" className="form-control" id="mailInput" placeholder="Téléphone" autoComplete='off' />
                 </div>
 
-                <div class="container-msg mb-3 d-flex justify-content-center mt-5">
-                    <textarea name="message" class="form-control" id="msg" rows="8" placeholder="Votre message ... *"></textarea>
+                <div className="container-msg mb-3 d-flex justify-content-center mt-5">
+                    <textarea name="message" className="form-control" id="msg" rows="8" placeholder="Votre message ... *"></textarea>
                 </div>
 
                 <div className="container-submit d-flex justify-content-center mt-5">

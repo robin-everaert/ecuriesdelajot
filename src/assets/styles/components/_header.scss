@@ -1,13 +1,12 @@
 #header {
 
-
     .logo-header {
       width: 150px;
     }
     .btn-nav {
         color: $mainColor;
           &:hover, .active a {
-            text-decoration: underline;
+            color: $secondColor;
           }
       } 
 }

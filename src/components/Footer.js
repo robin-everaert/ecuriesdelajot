@@ -7,7 +7,7 @@ const Footer = () => {
             <img src={ logo } alt="Le logo de l'écuries de l'Ajot" className="img img-fluid logo" />
             <p className="mt-3 text-center">© Marie Everaert - Ecuries de l'Ajot | Tous droits réservés</p>
             <p className="text-center">3 chemin de l'Ajot 51340 Pargny-sur-Saulx</p>
-            <a href="https://www.linkedin.com/in/robin-everaert/?originalSubdomain=fr" className="text-center">
+            <a href="https://www.linkedin.com/in/robin-everaert/?originalSubdomain=fr" className="text-center" target="_blank">
                 Site développé par Everaert Robin
             </a>
         </footer>

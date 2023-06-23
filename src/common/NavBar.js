@@ -27,7 +27,7 @@ const NavBar = () => {
                         <Link to="/pension" className='btn btn-nav'>Pensions</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="/education" className='btn btn-nav'>Education du cheval</Link>
+                        <Link to="/education" className='btn btn-nav'>Éducation du cheval</Link>
                     </li>
                     <li className="nav-item">
                         <Link to='/sejour-bien-etre' className='btn btn-nav'>Séjour bien-être</Link>

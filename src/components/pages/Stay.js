@@ -5,10 +5,12 @@ import { massageContent, hydrotherapieContent, stretchingContent, aromatherapieC
 const Stay = () => {
     return (
         <main id="main" className="main main-stay">
+            <h1 className='text-center'>Séjour bien-être</h1>
             <div className="container">
-                <section className="row txt-container">
+                
+                <section className="row txt-container mt-5">
                     <div className="col-12 text-center">
-                        <p className="mt-4 mt-md-5">
+                        <p>
                             Nos journées bien-être sont adaptées et personnalisées pour chaque cheval en fonction de son tempérament et de son histoire. La détente et la relaxation des chevaux est notre priorité.
                         </p>
                         <p>
@@ -60,7 +62,7 @@ const Stay = () => {
                     }
                 </section>
 
-                <section className="row txt-container text-center mt-5">
+                <section className="row txt-container text-center mt-0 mt-md-5">
                     <div className="col-12">
                         <h1><span className="d-block d-md-inline">A venir</span> en septembre 2023</h1>
                         <h1 className="mt-2">Algothérapie</h1>

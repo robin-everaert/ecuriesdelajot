@@ -5,6 +5,8 @@ import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 import App from './App';
 import "./assets/styles/index.scss";
 
+// Active nav link : 
+
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -12,4 +14,6 @@ const root = createRoot(container);
 root.render(
       <App />
 );
+
+
 

@@ -41,11 +41,11 @@ const YearPension = () => {
 
                     <ul className="col-12 li-container">
                         <li>
-                            <i class="fa-solid fa-horse"></i>
+                            <i className="fa-solid fa-horse"></i>
                             Accès à des chemins de balade et à la rivière de l'écurie.
                         </li>
                         <li>
-                            <i class="fa-solid fa-horse"></i>
+                            <i className="fa-solid fa-horse"></i>
                             Monitrice diplômée BPJEPS sur place
                         </li>
                     </ul>
@@ -54,7 +54,7 @@ const YearPension = () => {
 
             {/* Pension Temporaire : */}
             <section className="container">
-                <h1 className="text-center">pension courte durée</h1>
+                <h1 className="text-center">Pension courte durée</h1>
 
                 <div className="row mt-3 mt-md-5">
                     <BlocThreeImages imgLeft={ imgLeftT } imgCenter={ imgCenterT } imgRight={ imgRightT } />
@@ -70,19 +70,19 @@ const YearPension = () => {
                     
                         <ul className="li-container">
                             <li>
-                                <i class="fa-solid fa-horse"></i>
+                                <i className="fa-solid fa-horse"></i>
                                 Placement "provisoire" : Nous gardons toujours un box et un parc provisoire pour vous permettre de pouvoir séjourner temporairement et profiter des installations ainsi que des prestations sans avoir à vous engager sur une pension longue durée.
                             </li>
                             <li>
-                                <i class="fa-solid fa-horse"></i>
+                                <i className="fa-solid fa-horse"></i>
                                 Le gardiennage de votre cheval est possible si vous devez vous absenter et que vous souhaitez partir serein. Votre cheval bénéficiera de toutes les prestations dont il a besoin pour se sentir chez lui et passer un bon séjour, sans être perturbé par votre absence.
                             </li>
                             <li>
-                                <i class="fa-solid fa-horse"></i>
+                                <i className="fa-solid fa-horse"></i>
                                 L'été nous accueillons avec plaisir les personnes qui souhaitent faire escale chez nous. Des tentes peuvent être installées, juste à côté des chevaux et le club-house est mis à disposition avec lavabo, toilettes, réfrigérateur, micro-onde, machine à café et bouilloire. Lors de votre séjour, vous aurez accès à toutes nos infrastructures et vous pourrez bénéficier des prestations de l'écurie. 
                             </li>
                             <li>
-                                <i class="fa-solid fa-horse"></i>
+                                <i className="fa-solid fa-horse"></i>
                                 Le transport des chevaux ou la location de notre van est possible pour ceux qui ne sont pas équipés pour se déplacer.
                             </li>
                         </ul>

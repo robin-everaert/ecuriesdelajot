@@ -15,7 +15,6 @@ import infrastructure2 from "../../assets/images/home/infrastructure2.JPG";
 import infrastructure3 from "../../assets/images/home/infrastructure3.JPG";
 
 const Home = () => {
-
     return (
             <main id="main" className="main main-home">
 
@@ -24,18 +23,18 @@ const Home = () => {
                     <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
                         <img src={ logoNoTxt } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
                         <div className="txt-section1-container text-center">
-                            <h1 className="fontTitle">Écuries de l'Ajot</h1>
+                            <h1 className="fontTitle mt-0 mb-0">Écuries de l'Ajot</h1>
                         </div>
                         <img src={ lineCoeur } className="img img-fluid line-coeur" alt="Un dessin avec un coeur" />
                         
                     </div>
                     <div className="col-12 col-md-6 mt-5 mt-md-0">
-                        <img src={ accueilSection1 } className="img img-fluid border-radius-left" alt="" />
+                        <img src={ accueilSection1 } className="img img-fluid border-radius-left" alt="Deux chevaux qui broutte dans un pré" />
                     </div>
                 </section>
 
                 <section className="row presentation-container txt-container">
-                    <div className="col-12 text-center">
+                    <div className="col-12 text-center ">
                         <p className="fst-italic">
                             Les chevaux partagent la vie des hommes depuis plusieurs millénaires et de nos jours, on ne les élève plus que pour nos loisirs et donc notre plaisir. Il est de notre devoir de faire en sorte que nos chevaux tirent, eux aussi, profit de cette interaction entre les espèces. 
                         </p>
@@ -51,7 +50,7 @@ const Home = () => {
                 {/* Qui suis-je */}
                 <section className="row quiSuisJe-container border-radius-container">
                     <div className="col-12 col-md-6">
-                        <img src={ quiSuisJe } alt="La photo de Bailly Marie" className="img img-fluid border-radius-right" />
+                        <img src={ quiSuisJe } alt="La photo de Bailly Marie avec un cheval" className="img img-fluid border-radius-right" />
                     </div>
                     <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
                         <h1 className="font-title text-center pb-4 pt-md-5">
@@ -77,16 +76,16 @@ const Home = () => {
                 {/* Mes services */}
                 <section className="row service-container text-center border-container">
                     <h1 className="font-title text-center">Mes Services</h1>
-                    <a href="#" className="col-12 col-md-4">
-                        <img src={ servicePension } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
+                    <a href="/pension" className="col-12 col-md-4">
+                        <img src={ servicePension } className="img img-fluid logo-no-txt" alt="Un cheval de l'écuries de l'Ajot" />
                         <h3 className="font-title">Pensions</h3>
                     </a>
-                    <a href="#" className="col-12 col-md-4">
-                        <img src={ serviceEducation } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
+                    <a href="/education" className="col-12 col-md-4">
+                        <img src={ serviceEducation } className="img img-fluid logo-no-txt" alt="Une adhérente de l'écuries de l'Ajot qui éduque un cheval" />
                         <h3 className="font-title">Éducation</h3>
                     </a>
-                    <a href="#" className="col-12 col-md-4">
-                        <img src={ serviceSejour } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
+                    <a href="/stay" className="col-12 col-md-4">
+                        <img src={ serviceSejour } className="img img-fluid logo-no-txt" alt="Une adhérente de l'écuries de l'Ajot qui baigne son cheval" />
                         <h3 className="font-title">Séjour bien-être</h3>
                     </a>
                 </section>
@@ -96,7 +95,7 @@ const Home = () => {
             <section className="banner-home-container d-flex justify-content-center align-items-center">
                 <div className="banner-home-content d-flex flex-column justify-content-center align-items-center">       
                     <img src={ logo } className="logo-guarantie" alt="Le logo de la garantie décenale" />
-                    <a href="#" className="mt-5 mb-4">Contactez-moi</a>
+                    <a href="/contact" className="mt-5 mb-4">Contactez-moi</a>
                 </div>
             </section>
 
@@ -110,23 +109,20 @@ const Home = () => {
                         <ul className="col-12 col-md-6 mt-5 pb-0 mb-0">
                             {
                                 infrastructureArray.slice(0, 5).map((m, i) => (
-                                    <li key={ i }><i class="fa-solid fa-horse"></i>{ m }</li>
+                                    <li key={ i }><i className="fa-solid fa-horse"></i>{ m }</li>
                                 ))
                             }           
                         </ul>
                         <ul className="col-12 col-md-6 mt-md-5 pt-0 mb-0">
                             {
                                 infrastructureArray.slice(5).map((m, i) => (
-                                    <li key={ i }><i class="fa-solid fa-horse"></i>{ m }</li>
+                                    <li key={ i }><i className="fa-solid fa-horse"></i>{ m }</li>
                                 ))
                             }           
                         </ul>
                     </div>
                 </section>
             </div>
-
-                
-        
         </main>
     );
 };

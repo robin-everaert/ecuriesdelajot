@@ -1,14 +1,12 @@
 
-
 // Bubble : 
 .bubble-contact-content {
-    color: $mainColor;
+    color: $secondColor;
     transition: all .3s;
-    
         &:hover {
             transform: scale(1.1);
-            color: $mainColor;
             transition: all .3s;
+            color: $secondColor;
         }
 
         i {
@@ -91,6 +89,9 @@
                     transition: all .3s;
                 }
         }
+        i {
+            color: $secondColor;
+        }
         span {
             margin-top: 0.5em;
         }
@@ -101,26 +102,35 @@
 }
 
 .container-link-partner-2 {
+    
     .span-saddle {
         font-size: 1rem;
     }
+    i {
+        color: $secondColor;
+        font-size: 1.2rem;
+    }
     a {
         font-size: 1rem !important;
-    }
+    } 
+
 }
 
 @media(min-width: 768px) {
+    .imgContactTop {
+        width: 50%;
+    }
     #main-contact {
         padding-top: 10vh !important;
     }
     // Bubble : 
     .bubble-contact-content {
             i {
-                font-size: 3em;
+                font-size: 2em;
             }
             span {
                 margin-top: 1em;
-                font-size: 1.4rem;
+                font-size: 1.2rem;
             }
     }
     #form-contact {
@@ -152,11 +162,6 @@
                 color: $mainColor;
                 font-size: 1.3rem;
                 margin-top: 1.2em;
-                transition: all .3s;
-                    &:hover {
-                        transform: scale(1.1);
-                        transition: all .3s;
-                    }
             }
             span {
                 margin-top: 0.5em;

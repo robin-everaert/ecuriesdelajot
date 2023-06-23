@@ -38,12 +38,12 @@ body {
       margin: 10px 0;
   }
   i {
+      color: $secondColor !important;
       margin-right: 0.5em;
   }
 }
 .border-container {
     background: $white;
-    border: 2px solid $mainColor;
 }
 .font-title {
   color: $secondColor;
@@ -57,6 +57,9 @@ h1 {
 }
 h2 {
   color: $secondColor;
+}
+.nav-item.active a {
+  color: $secondColor !important;
 }
 
 
@@ -111,16 +114,14 @@ li {
   .border-radius-right {
     border-radius: 0 350px 0 0;
   }
+  .b-radius {
+    border-radius: 15px;
+  }
 }
 .txt-important {
   color: $mainColor;
   text-align: center;
 }
-.b-radius {
-  border-radius: 15px;
-}
-
-
 
 
 // font : 

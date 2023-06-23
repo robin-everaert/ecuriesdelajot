@@ -2,7 +2,7 @@
     margin-bottom: 15vh;
 
     ul {
-        padding-left: 2em !important;       
+        padding-left: 1em !important;       
     }
 
     .section-1 {
@@ -23,7 +23,7 @@
     .service-container {
         background: rgba(255, 255, 255, 1);    
         padding: 8vh 3vh;
-        border-radius: 30px;
+        border-radius: none;
 
             h1, h3 {
                 color: $mainColor;
@@ -53,7 +53,6 @@
                 margin: 8vh;
                 padding: 6vh 8vh;
                 background-color: rgba(255, 255, 255, .4);
-                border: 3px solid $mainColor;
             }
             img {
     
@@ -81,6 +80,7 @@
 
         .service-container {
             padding: 10vh 5vh;
+            border-radius: 30px;
     
                 h1 {
                     color: $mainColor;

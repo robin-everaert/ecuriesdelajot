@@ -2,7 +2,7 @@ const BlocImageRight = ({ title, img, textes }) => {
     return (
       <div className="d-flex flex-column-reverse flex-md-row">   
         <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
-          <h1 className="font-title text-center pb-4 pt-md-5">
+          <h1 className="font-title text-center pb-0 pt-md-5">
             { title }
           </h1>
           <div className='p-0 text-center text-md-start txt-container'>

@@ -6,7 +6,8 @@ import reeducation from "../../assets/images/education/reeducation.JPG";
 const Education = () => {
     return (
         <main id="main" className="main main-education">
-            <div className="container">
+            <h1 className='text-center mt-5'>Éducation du cheval</h1>
+            <div className="container">              
                 <section className="row txt-container">
                     <div className="col-12 text-center">
                         <p className="mt-4 mt-md-5">         

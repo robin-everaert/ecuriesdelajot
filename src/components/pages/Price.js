@@ -11,7 +11,7 @@ const Price = () => {
             <div className="price-table-container">
    
                 <section className="container price-table-pension-container">
-                    <h2 className="text-center p-4">Pensions à l'année et prestations</h2>
+                    <h2 className="text-center p-4 mt-5">Pensions à l'année et prestations</h2>
                     <div className="row">
                         {
                             priceTablesArray.slice(0, 2).map((p, i) => (
@@ -20,7 +20,7 @@ const Price = () => {
                         }       
                     </div>      
 
-                    <h2 className="text-center p-4">pensions courte durée et prestations</h2>   
+                    <h2 className="text-center p-4 mt-5">pensions courte durée et prestations</h2>   
                     <div className="row">
                         {
                             priceTablesArray.slice(2, 4).map((p, i) => (
@@ -28,7 +28,7 @@ const Price = () => {
                             ))
                         }       
                     </div>  
-                    <h2 className="text-center p-4">Autres prestations</h2>
+                    <h2 className="text-center p-4 mt-5">Autres prestations</h2>
                     <div className="row">
                         {
                             priceTablesArray.slice(4, 6).map((p, i) => (
