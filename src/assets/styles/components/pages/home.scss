@@ -44,7 +44,7 @@
             }
     }
     .banner-home-container {
-        background: url(../../../images/home/banner.JPG);   
+        background: $white;   
         background-size: cover;
         background-attachment: fixed;
     
@@ -78,6 +78,9 @@
 @media(min-width: 768px) {
     .main-home {
 
+        .banner-home-container {
+            background: url(../../../images/home/banner.JPG);   
+        }
         .service-container {
             padding: 10vh 5vh;
             border-radius: 30px;
@@ -88,6 +91,11 @@
                 img {
                     margin: 5vh 0 3vh 0;
                 }
+        }
+        .banner-home-container {
+            a {
+                width: 8em;
+            }
         }
     }
 }

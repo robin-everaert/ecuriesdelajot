@@ -1,6 +1,6 @@
 const PriceTable = ({ title, item, price, img }) => {
     return (
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-md-6 mt-4 pt-0">
             <div className="price-table-content">
                 <div className="price-table-header text-center">
                 <h2>{title}</h2>

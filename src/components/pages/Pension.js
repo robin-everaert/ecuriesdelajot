@@ -1,14 +1,14 @@
 import BlocThreeImages from "../BlocThreeImages";
 
-import imgLeft from "../../assets/images/yearPension/img-left.jpg";
-import imgCenter from "../../assets/images/yearPension/img-center.jpg";
-import imgRight from "../../assets/images/yearPension/img-right.jpg";
-import imgLeftT from "../../assets/images/yearPension/img-left-t.jpg";
-import imgCenterT from "../../assets/images/yearPension/img-center-t.JPG";
-import imgRightT from "../../assets/images/yearPension/img-right-t.jpg";
+import imgLeft from "../../assets/images/pension/img-left.jpg";
+import imgCenter from "../../assets/images/pension/img-center.jpg";
+import imgRight from "../../assets/images/pension/img-right.jpg";
+import imgLeftT from "../../assets/images/pension/img-left-t.jpg";
+import imgCenterT from "../../assets/images/pension/img-center-t.JPG";
+import imgRightT from "../../assets/images/pension/img-right-t.jpg";
 
 
-const YearPension = () => {
+const Pension = () => {
     return (
         <main id="main" className="main main-pension">
             <section className="container">
@@ -93,4 +93,4 @@ const YearPension = () => {
     );
 };
 
-export default YearPension;
+export default Pension;

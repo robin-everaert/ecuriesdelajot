@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import BlocThreeImages from "../BlocThreeImages";
 
 import { infrastructureArray } from "../../assets/js/data";
@@ -15,6 +16,7 @@ import infrastructure2 from "../../assets/images/home/infrastructure2.JPG";
 import infrastructure3 from "../../assets/images/home/infrastructure3.JPG";
 
 const Home = () => {
+      
     return (
             <main id="main" className="main main-home">
 
@@ -76,26 +78,28 @@ const Home = () => {
                 {/* Mes services */}
                 <section className="row service-container text-center border-container">
                     <h1 className="font-title text-center">Mes Services</h1>
-                    <a href="/pension" className="col-12 col-md-4">
+                    <Link to="/pension" className='col-12 col-md-4'>
                         <img src={ servicePension } className="img img-fluid logo-no-txt" alt="Un cheval de l'écuries de l'Ajot" />
                         <h3 className="font-title">Pensions</h3>
-                    </a>
-                    <a href="/education" className="col-12 col-md-4">
+                    </Link>
+                    <Link to="/education" className='col-12 col-md-4'>
                         <img src={ serviceEducation } className="img img-fluid logo-no-txt" alt="Une adhérente de l'écuries de l'Ajot qui éduque un cheval" />
                         <h3 className="font-title">Éducation</h3>
-                    </a>
-                    <a href="/stay" className="col-12 col-md-4">
+                    </Link>
+                    <Link to="/sejour-bien-etre" className='col-12 col-md-4'>
                         <img src={ serviceSejour } className="img img-fluid logo-no-txt" alt="Une adhérente de l'écuries de l'Ajot qui baigne son cheval" />
                         <h3 className="font-title">Séjour bien-être</h3>
-                    </a>
+                    </Link>
                 </section>
             </div>
 
             {/* banner */}
             <section className="banner-home-container d-flex justify-content-center align-items-center">
                 <div className="banner-home-content d-flex flex-column justify-content-center align-items-center">       
-                    <img src={ logo } className="logo-guarantie" alt="Le logo de la garantie décenale" />
-                    <a href="/contact" className="mt-5 mb-4">Contactez-moi</a>
+                    <img src={ logo } alt="Le logo de l'Ecuries de l'Ajot" />
+                    <Link to="/contact" className='col-12 col-md-4 text-center'>
+                        Contactez-moi
+                    </Link>
                 </div>
             </section>
 
