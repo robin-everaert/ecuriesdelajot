@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecuriesdelajot/static/css/main.15b8cf82.css",
-    "main.js": "/ecuriesdelajot/static/js/main.592cb5b5.js",
+    "main.css": "/ecuriesdelajot/static/css/main.55033230.css",
+    "main.js": "/ecuriesdelajot/static/js/main.71b1ce50.js",
     "static/media/infrastructure3.JPG": "/ecuriesdelajot/static/media/infrastructure3.98653748f41695f4ad6f.JPG",
     "static/media/infrastructure2.JPG": "/ecuriesdelajot/static/media/infrastructure2.83792684ab68a5ff0774.JPG",
     "static/media/service-pension.jpeg": "/ecuriesdelajot/static/media/service-pension.bedccdc3002e45d23e48.jpeg",
@@ -33,11 +33,11 @@
     "static/media/logo-no-txt.png": "/ecuriesdelajot/static/media/logo-no-txt.faa7bc544f375dd93445.png",
     "static/media/line-coeur.png": "/ecuriesdelajot/static/media/line-coeur.b6e0c5238c7baf5c08e8.png",
     "index.html": "/ecuriesdelajot/index.html",
-    "main.15b8cf82.css.map": "/ecuriesdelajot/static/css/main.15b8cf82.css.map",
-    "main.592cb5b5.js.map": "/ecuriesdelajot/static/js/main.592cb5b5.js.map"
+    "main.55033230.css.map": "/ecuriesdelajot/static/css/main.55033230.css.map",
+    "main.71b1ce50.js.map": "/ecuriesdelajot/static/js/main.71b1ce50.js.map"
   },
   "entrypoints": [
-    "static/css/main.15b8cf82.css",
-    "static/js/main.592cb5b5.js"
+    "static/css/main.55033230.css",
+    "static/js/main.71b1ce50.js"
   ]
 }
