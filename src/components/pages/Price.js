@@ -28,7 +28,7 @@ const Price = () => {
                             ))
                         }       
                     </div>  
-                    <h2 className="text-center pb-0 pt-md-3 mt-5">Autres prestations</h2>
+                    <h2 className="text-center pb-0 pt-md-3 mt-5">Pôle bien-être</h2>
                     <div className="row">
                         {
                             priceTablesArray.slice(4, 6).map((p, i) => (

@@ -1,24 +1,27 @@
 import BlocImageLeft from "../BlocImageLeft";
 import BlocImageRight from "../BlocImageRight";
-import { massageContent, hydrotherapieContent, stretchingContent, aromatherapieContent, detenteContent } from "../../assets/js/data";
+import { massageContent, hydrotherapieContent, stretchingContent, aromatherapieContent, detenteContent, algoContent } from "../../assets/js/data";
 
 const Stay = () => {
     return (
         <main id="main" className="main main-stay">
-            <h1 className='text-center'>Séjour bien-être</h1>
+            <h1 className='text-center'>Pôle bien-être </h1>
             <div className="container">
                 
                 <section className="row txt-container mt-5">
                     <div className="col-12 text-center">
                         <p>
-                            Nos journées bien-être sont adaptées et personnalisées pour chaque cheval en fonction de son tempérament et de son histoire. La détente et la relaxation des chevaux est notre priorité.
+                            Nos prestations bien-être sont adaptées et personnalisées pour chaque cheval en fonction de son activité et de son histoire.
                         </p>
                         <p>
-                            Moments de plaisir, récupérations sportives, rémission ou prévention des blessures : tout est
-                            mis en place pour que votre cheval ou votre poney puisse se détendre mentalement,
-                            physiquement et que vous puissiez passer des moments agréables avec lui.
-                            Pour cela, plusieurs activités vous sont proposées :
+                           Relaxation et moments de plaisir, préparation ou récupération à l'effort, rémission ou prévention des blessures.
                         </p>
+                        <p className="fst-italic">
+                            Tout est mis en place pour que votre cheval ou votre poney puisse se détendre mentalement, physiquement et qu'il puisse passer un moment agréable.
+                        </p>                          
+                       <p>
+                            Pour cela, nous vous proposons plusieurs activités pouvant être effectuer à l'écurie ou directement chez vous à domicile avec notre déplacement :
+                       </p>
                     </div>
                 </section>
 
@@ -54,27 +57,21 @@ const Stay = () => {
                     }
                 </section>
 
-                <section className="row border-radius-container">
+                {/* <section className="row border-radius-container">
                     {
                         detenteContent.map((dc, i) => (
                             <BlocImageLeft key={ i } title={ dc.title } img={ dc.img } textes={ dc.txt } />
                         ))
                     }
-                </section>
+                </section> */}
 
-                <section className="row txt-container text-center mt-0 mt-md-5">
-                    <div className="col-12">
-                        <h1><span className="d-block d-md-inline">A venir</span> en septembre 2023</h1>
-                        <h1 className="mt-2">Algothérapie</h1>
-                        <div className="mt-5">
-                            <p> L’algothérapie est l'utilisation des vertus des algues marines pour prendre soin des articulations et des muscles du cheval, améliorer sa performance ou pallier d'éventuels soucis de santé.</p>
-                            <p>L’apport d’oligo-éléments et de minéraux accumulés dans les complexes d’algues proposés, nourrit les tissus et joue un rôle anti-inflammatoire sur les zones ciblées.</p>
-                            <p>Formés et partenaires de la gamme de produit Cavasso, nous utilisons le soin qui correspond aux besoins de votre cheval.</p>
-                            <p>L’algothérapie peut également être utilisée en complément de la prestation massage, si vous le souhaitez.</p>
-                        </div>
-                    </div>
+                <section className="row border-radius-container">
+                    {
+                        algoContent.map((ac, i) => (
+                            <BlocImageLeft key={ i } title={ ac.title } img={ ac.img } textes={ ac.txt } />
+                        ))
+                    }
                 </section>
-
             </div>
         </main>
     );

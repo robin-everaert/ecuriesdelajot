@@ -73,27 +73,34 @@ const Contact = () => {
             <section className="container partner mt-0 mt-md-5">
                 <div className="row mt-5">
                     <ul className="col-12 partner-content container-link-partner container-link-partner-2 border-container d-flex flex-column flex-md-row justify-content-between align-items-center align-items-md-start text-center">
-                        <li className='d-flex flex-column justify-content-center align-items-center m-3'>
+                        <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
+                            <i className="fa-solid fa-horse"></i>
+                            <span>
+                                Cavasso <br />
+                                <a href="https://cavasso.fr" className="span-saddle fw-bold" target='_blank'>site internet</a>
+                            </span>
+                        </li>
+                        <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
                             <i className="fa-solid fa-horse"></i>
                             <span>   
                                 Saddle fitting Lorraine <br />
                                 <a href="https://saddlefittinglorraine.fr/" className="span-saddle fw-bold" target='_blank'>site internet</a>
                             </span>
                         </li>
-                        <li className='d-flex flex-column justify-content-center align-items-center m-3'>
+                        <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
                             <i className="fa-solid fa-horse"></i>
                             <span>
                                 Rémi Champion : Préparateur physique<br />
                                 <a href="https://www.liber-key.com/" className="fw-bold" target='_blank'>site internet</a>
                             </span>
                         </li>
-                        <li className='d-flex flex-column justify-content-center align-items-center m-3'>
+                        <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
                             <i className="fa-solid fa-horse"></i>
                             <span>
                                 Christian Briquet : Dentiste équin<br /> <a href="0675742348">0675742348</a>
                             </span>
                         </li>
-                        <li className='d-flex flex-column justify-content-center align-items-center m-3'>
+                        <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
                             <i className="fa-solid fa-horse"></i>
                             <span>
                                 Prestation podologie disponible sur place

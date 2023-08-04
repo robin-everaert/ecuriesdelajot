@@ -1,6 +1,6 @@
 const BlocImageLeft = ({ title, img, textes }) => {
     return (
-      <>
+      <div className="d-flex flex-column flex-md-row align-items-center">
         <div className="col-12 col-md-6">
           <img className="img img-fluid border-radius-right" src={ img } alt={ title } />
         </div>
@@ -16,7 +16,7 @@ const BlocImageLeft = ({ title, img, textes }) => {
             }
           </div>
         </div>
-      </>
+      </div>
     );
   };
   

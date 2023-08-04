@@ -20,7 +20,7 @@ const NavBar = () => {
                         <NavLink to="/education" className='btn btn-nav'>Éducation du cheval</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to='/sejour-bien-etre' className='btn btn-nav'>Séjour bien-être</NavLink>
+                        <NavLink to='/pole-bien-etre' className='btn btn-nav'>Pôle bien-être</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/tarif" className='btn btn-nav'>Tarifs</NavLink>
