@@ -32,14 +32,21 @@ const Stay = () => {
                         ))
                     }
                 </section>
-
                 <section className="row border-radius-container">
+                    {
+                        algoContent.map((ac, i) => (
+                            <BlocImageRight key={ i } title={ ac.title } img={ ac.img } textes={ ac.txt } />
+                        ))
+                    }
+                </section>
+
+                {/* <section className="row border-radius-container">
                     {
                         hydrotherapieContent.map((yc, i) => (
                             <BlocImageRight key={ i } title={ yc.title } img={ yc.img } textes={ yc.txt } />
                         ))
                     }
-                </section>
+                </section> */}
 
                 <section className="row border-radius-container">
                     { 
@@ -57,6 +64,14 @@ const Stay = () => {
                     }
                 </section>
 
+                <section className="row border-radius-container">
+                    {
+                        hydrotherapieContent.map((yc, i) => (
+                            <BlocImageLeft key={ i } title={ yc.title } img={ yc.img } textes={ yc.txt } />
+                        ))
+                    }
+                </section>
+
                 {/* <section className="row border-radius-container">
                     {
                         detenteContent.map((dc, i) => (
@@ -65,13 +80,13 @@ const Stay = () => {
                     }
                 </section> */}
 
-                <section className="row border-radius-container">
+                {/* <section className="row border-radius-container">
                     {
                         algoContent.map((ac, i) => (
                             <BlocImageLeft key={ i } title={ ac.title } img={ ac.img } textes={ ac.txt } />
                         ))
                     }
-                </section>
+                </section> */}
             </div>
         </main>
     );
