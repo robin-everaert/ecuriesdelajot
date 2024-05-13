@@ -44,7 +44,7 @@ const Home = () => {
                             Les Ecuries de L'Ajot vous accueillent dans un cadre unique et authentique en Champagne-Ardenne. Le calme et la nature règnent dans cet ancien corps de ferme, longé par la Saulx et datant du début du 20ème siècle. Nous avons commencé à réaménager les bâtiments il y a 4 ans et nous les avons transformés en écuries, tout en conservant leur charme d’antan.
                         </p>
                         <p>
-                            Diverses prestations sont disponibles aux écuries : pension, éducation du cheval et séjour bien-être. Notre objectif premier reste la compréhension et le bien-être des chevaux, quel que soit le service proposé et nous aspirons chaque jour à les aider à se sentir au mieux, tout en conservant au maximum leurs besoins naturels.
+                            Diverses prestations sont disponibles aux écuries : pension, éducation du cheval et séance bien-être. Notre objectif premier reste la compréhension et le bien-être des chevaux, quel que soit le service proposé et nous aspirons chaque jour à les aider à se sentir au mieux, tout en conservant au maximum leurs besoins naturels.
                         </p>
                     </div>
                 </section>
@@ -63,7 +63,7 @@ const Home = () => {
                                 Fascinée depuis mon plus jeune âge par les chevaux, il m’est apparu très tôt comme une évidence d’orienter ma vie professionnelle dans ce domaine.
                             </p>
                             <p>
-                                J’ai commencé en obtenant mon BPJEPS en 2010 puis j’ai multiplié les expériences professionnelles en tant que cavalière et monitrice indépendante, tout en continuant à approfondir mes connaissances en suivant diverses formations, principalement en éthologie (domaine que je continue d’approfondir chaque jour), mais aussi en participant à d’autres formations : auxiliaire vétérinaire équin, aromathérapie équine, algothérapie, stretching.
+                                J’ai commencé en obtenant mon BPJEPS en 2010 puis j’ai multiplié les expériences professionnelles en tant que cavalière et monitrice indépendante, tout en continuant à approfondir mes connaissances en suivant diverses formations, principalement en éthologie (formation en ligne Ludovic Fournet / Andy Booth), mais aussi en participant à d’autres formations : auxiliaire vétérinaire équin, aromathérapie équine, algothérapie, stretching.
                             </p>
                             <p className="fw-bold">
                                 Plus qu’une passion, c’est devenue une vocation…
@@ -86,9 +86,9 @@ const Home = () => {
                         <img src={ serviceEducation } className="img img-fluid logo-no-txt" alt="Une adhérente de l'écuries de l'Ajot qui éduque un cheval" />
                         <h3 className="font-title">Éducation</h3>
                     </Link>
-                    <Link to="/sejour-bien-etre" className='col-12 col-md-4'>
+                    <Link to="/seance-bien-etre" className='col-12 col-md-4'>
                         <img src={ serviceSejour } className="img img-fluid logo-no-txt" alt="Une adhérente de l'écuries de l'Ajot qui baigne son cheval" />
-                        <h3 className="font-title">Séjour bien-être</h3>
+                        <h3 className="font-title">Séance bien-être</h3>
                     </Link>
                 </section>
             </div>
@@ -112,14 +112,14 @@ const Home = () => {
                     <div className="row li-container">
                         <ul className="col-12 col-md-6 mt-5 pb-0 mb-0">
                             {
-                                infrastructureArray.slice(0, 5).map((m, i) => (
+                                infrastructureArray.slice(0, 4).map((m, i) => (
                                     <li key={ i }><i className="fa-solid fa-horse"></i>{ m }</li>
                                 ))
                             }           
                         </ul>
                         <ul className="col-12 col-md-6 mt-md-5 pt-0 mb-0">
                             {
-                                infrastructureArray.slice(5).map((m, i) => (
+                                infrastructureArray.slice(4).map((m, i) => (
                                     <li key={ i }><i className="fa-solid fa-horse"></i>{ m }</li>
                                 ))
                             }           

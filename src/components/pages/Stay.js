@@ -1,11 +1,11 @@
 import BlocImageLeft from "../BlocImageLeft";
 import BlocImageRight from "../BlocImageRight";
-import { massageContent, hydrotherapieContent, stretchingContent, aromatherapieContent, detenteContent, algoContent } from "../../assets/js/data";
+import { massageContent, stretchingContent, aromatherapieContent, detenteContent, algoContent } from "../../assets/js/data";
 
 const Stay = () => {
     return (
         <main id="main" className="main main-stay">
-            <h1 className='text-center'>Pôle bien-être </h1>
+            <h1 className='text-center'>Séance bien-être</h1>
             <div className="container">
                 
                 <section className="row txt-container mt-5">
@@ -20,7 +20,7 @@ const Stay = () => {
                             Tout est mis en place pour que votre cheval ou votre poney puisse se détendre mentalement, physiquement et qu'il puisse passer un moment agréable.
                         </p>                          
                        <p>
-                            Pour cela, nous vous proposons plusieurs activités pouvant être effectuer à l'écurie ou directement chez vous à domicile avec notre déplacement :
+                            Pour cela, nous vous proposons plusieurs activités auxquelles vous êtes libre de participer si vous le désirez, sous notre encadrement, afin que vous puissiez les reproduire chez vous en toute autonomie par la suite.
                        </p>
                     </div>
                 </section>
@@ -64,13 +64,13 @@ const Stay = () => {
                     }
                 </section>
 
-                <section className="row border-radius-container">
+                {/* <section className="row border-radius-container">
                     {
                         hydrotherapieContent.map((yc, i) => (
                             <BlocImageLeft key={ i } title={ yc.title } img={ yc.img } textes={ yc.txt } />
                         ))
                     }
-                </section>
+                </section> */}
 
                 {/* <section className="row border-radius-container">
                     {

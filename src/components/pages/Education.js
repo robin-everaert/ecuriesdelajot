@@ -61,7 +61,7 @@ const Education = () => {
                 </section>
 
                 <section className="row">
-                    <h2 className="text-center mt-4 mt-md-5">Pensions rééducation</h2>
+                    <h2 className="text-center mt-4 mt-md-5">Pensions réhabilitation - rééducation</h2>
                     <img src={ reeducation } className="img img-fluid mt-3" alt="Une photo de réducation équestre" />
                     <div className="col-12 text-center txt-container">
                         <p className="mt-4 mt-md-5">

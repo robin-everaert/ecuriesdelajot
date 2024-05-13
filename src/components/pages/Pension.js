@@ -12,7 +12,7 @@ const Pension = () => {
     return (
         <main id="main" className="main main-pension">
             <section className="container">
-                <h1 className='text-center'>Pension à l'année</h1>
+                <h1 className='text-center'>Pensions à l'année</h1>
 
                 <div className="row mt-3 mt-md-5">
                     <BlocThreeImages imgLeft={ imgLeft } imgCenter={ imgCenter } imgRight={ imgRight } />
@@ -46,7 +46,11 @@ const Pension = () => {
                         </li>
                         <li>
                             <i className="fa-solid fa-horse"></i>
-                            Monitrice diplômée BPJEPS sur place
+                            Monitrice diplômée BPJEPS sur place.
+                        </li>
+                        <li>
+                            <i className="fa-solid fa-horse"></i>
+                            Accès aux prestations bien-être à un tarif réduit.
                         </li>
                     </ul>
                 </div>
@@ -54,7 +58,7 @@ const Pension = () => {
 
             {/* Pension Temporaire : */}
             <section className="container">
-                <h1 className="text-center">Pension courte durée</h1>
+                <h1 className="text-center">Autres pensions</h1>
 
                 <div className="row mt-3 mt-md-5">
                     <BlocThreeImages imgLeft={ imgLeftT } imgCenter={ imgCenterT } imgRight={ imgRightT } />

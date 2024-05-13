@@ -2,7 +2,7 @@ import line from "../images/line.png";
 import massage from "../images/stay/massage.JPG";
 import hydrotherapie from "../images/stay/hydrotherapie.jpg";
 import stretching from "../images/stay/stretching.JPG";
-import aromatherapie from "../images/stay/aromatherapie.JPG";
+import aromatherapie from "../images/stay/aromatherapie.jpg";
 import detente from "../images/stay/moment_a_pied.jpg";
 import algotherapie from "../images/stay/algotherapie.JPG";
 
@@ -16,8 +16,6 @@ const infrastructureArray = [
     "Douche avec eau chaude",
     "Casiers individuels avec anneaux d'attache à côté.",
     "Club House",
-    "Pièce sellerie",
-    "Casier individuel",
 ];
 
 // stay Data : 
@@ -84,41 +82,41 @@ const algoContent = [{
 const priceTablesArray = [
     // Pension annuelle :
     {
+      title: "Pensions à l'année",
+      item: ["Shetlands – Poneys A", "Poneys B et C", "Poneys D et chevaux", "Adhésion annuelle"],
+      price: ["120€ par mois", "160€ par mois", "195€ par mois", "20€",],
+      img: line,
+    },
+    {
+      title: "Autres pensions",
+      item: ["Pensions jeune cheval / débourrage", "Pensions réhabilitation - rééducation", "Pensions gardiennage / convalescence", "Accès aux installations et aux tarifs des pensions à l'année"],
+      price: ["Sur devis", "Sur devis", "Sur devis", "60€"],
+      img: line,
+    },
+    // Pension passagère : (Commenté le 13/5)
+    {
       title: "Pensions",
-      item: ["Shetlands – Poneys A", "Poneys B et C", "Poneys D et chevaux", "Adhésion annuelle", "Licence FFE (obligatoire)"],
-      price: ["120€ par mois", "155€ par mois", "190€ par mois", "20€",],
+      item: ["Pensions jeune cheval / débourrage", "Pensions réhabilitation - rééducation", "Pensions gardiennage / convalescence", "Pension 24 heures", "Pension 3 jours", "Pension 1 semaine",],
+      price: ["Sur devis", "Sur devis", "Sur devis", "10€", "25€", "60€",],
       img: line,
     },
     {
       title: "Prestations",
-      item: ["Cours particulier 45min / cours collectif 1h", "Travail du cheval à pied", "Travail du cheval monté", "Sortie cheval (liberté, pansage, brouting..)", "Accès aux prestations bien-être à un tarif réduit",],
-      price: ["10€", "10€", "15€", "5€"],
-      img: line,
-    },
-    // Pension passagère :
-    {
-      title: "Pensions",
-      item: ["Pension débourrage / rééducation", "Pension 24 heures", "Pension 3 jours", "Pension 1 semaine",],
-      price: ["Sur devis", "10€", "25€", "60€",],
-      img: line,
-    },
-    {
-      title: "Prestations",
-      item: ["Cours (cavalier non adhérent) 1h", "Travail du cheval", "Location installation (hors pension)", "Adhésion annuelle (pour avoir accès au tarif des pensions à l’année)",],
+      item: ["Cours (cavalier non adhérent) 1h", "Travail du cheval", "Location installation (hors pension)", "Adhésion annuelle extérieure (pour avoir accès aux installations et au tarif des pensions à l'année)",],
       price: ["20€", "25€", "5€ la séance", "60€"],
       img: line,
     },
     // Autres prestations : 
     {
       title: "Prestations à l'écurie ",
-      item: ["Massage avec complément stretching et huile essentielle", "Soins algothérapie", "Consultation aromathérapie", "Stretching et Hydrothérapie", "Forfait massage + 1 activité au choix", "Forfait massage + 2 activités au choix"],
-      price: ["45€", "40€", "35€", "30€", "75€", "100€"],
+      item: ["Massage avec complément stretching et huile essentielle", "Soins algothérapie", "Consultation aromathérapie", "Stretching", "Forfait massage + 1 activité au choix"],
+      price: ["45€", "40€", "35€", "30€", "75€"],
       img: line,
     },
     {
       title: "Prestations à domicile",
-      item: ["Massage avec complément stretching adapté", "Supplément massage huile essentielle", "Algothérapie", "Présentation et explications sur les produits Cavasso", "Aromathérapie", "Stretching"],
-      price: ["50€", "5€", "45€", "30€", "40€", "35€"],
+      item: ["Massage avec complément stretching adapté", "Algothérapie", "Présentation et explications sur les produits Cavasso", "Aromathérapie", "Stretching"],
+      price: ["50€", "45€", "30€", "40€", "35€"],
       img: line,
     },
   ];
