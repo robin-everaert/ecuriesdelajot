@@ -74,36 +74,51 @@ const Contact = () => {
                 <div className="row mt-5">
                     <ul className="col-12 partner-content container-link-partner container-link-partner-2 border-container d-flex flex-column flex-md-row justify-content-between align-items-center align-items-md-start text-center">
                         <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
-                            <i className="fa-solid fa-horse"></i>
+                            {/* <i className="fa-solid fa-horse"></i> */}
                             <span>
-                                Cavasso <br />
-                                <a href="https://cavasso.fr" className="span-saddle fw-bold" target='_blank'>site internet</a>
+                                <span className="d-block fw-bold">O'Creations Sellerie</span>
+                                <div className="d-flex justify-content-around">
+                                    <a href="https://www.ocreations.fr/?gad_source=1&gclid=CjwKCAjw7s20BhBFEiwABVIMrbJlLcHNq_psN-Q7juxDnbpm5VVlAHm7Rd5YWP2BEMXgYJq-18eJWRoC9iYQAvD_BwE" className="span-saddle fw-bold" target='_blank'><i class="fa-solid fa-globe"></i></a>
+                                    <a href="https://www.facebook.com/o.creations.sellerie/" className="span-saddle fw-bold" target='_blank'><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/o.creations.officiel?igsh=MXhmemttZ2V6em53OA==" className="span-saddle fw-bold" target='_blank'><i class="fa-brands fa-square-instagram"></i></a>
+                                </div>
+                                
                             </span>
                         </li>
                         <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
-                            <i className="fa-solid fa-horse"></i>
+                            {/* <i className="fa-solid fa-horse"></i> */}
+                            <span>
+                                <span className="d-block fw-bold">Cavasso</span>
+                                <div className="d-flex justify-content-around">
+                                    <a href="https://cavasso.fr" className="span-saddle fw-bold" target='_blank'><i class="fa-solid fa-globe"></i></a>
+                                </div>
+                            </span>
+                        </li>
+                        <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
+                            {/* <i className="fa-solid fa-horse"></i> */}
                             <span>   
-                                Saddle fitting Lorraine <br />
-                                <a href="https://saddlefittinglorraine.fr/" className="span-saddle fw-bold" target='_blank'>site internet</a>
+                                <span className="d-block fw-bold">Saddle fitting Lorraine</span>
+                                <div className="d-flex justify-content-around">
+                                    <a href="https://saddlefittinglorraine.fr/" className="span-saddle fw-bold" target='_blank'><i class="fa-solid fa-globe"></i></a>
+                                </div>
                             </span>
                         </li>
                         <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
-                            <i className="fa-solid fa-horse"></i>
+                            {/* <i className="fa-solid fa-horse"></i> */}
                             <span>
-                                Rémi Champion : Préparateur physique<br />
-                                <a href="https://www.liber-key.com/" className="fw-bold" target='_blank'>site internet</a>
+                                <span className="d-block fw-bold">Rémi Champion : Préparateur physique</span>
+                                <div className="d-flex justify-content-around">
+                                    <a href="https://www.liber-key.com/" className="fw-bold" target='_blank'><i class="fa-solid fa-globe"></i></a>
+                                </div>
                             </span>
                         </li>
                         <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
-                            <i className="fa-solid fa-horse"></i>
+                            {/* <i className="fa-solid fa-horse"></i> */}
                             <span>
-                                Christian Briquet : Dentiste équin<br /> <a href="0675742348">0675742348</a>
-                            </span>
-                        </li>
-                        <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
-                            <i className="fa-solid fa-horse"></i>
-                            <span>
-                                Prestation podologie disponible sur place
+                                <span className="d-block fw-bold">Christian Briquet : Dentiste équin</span> 
+                                <div className="d-flex justify-content-around">
+                                    <a href="0675742348"><i class="fa-solid fa-mobile-screen-button"></i></a>
+                                </div>
                             </span>
                         </li>
                     </ul>
