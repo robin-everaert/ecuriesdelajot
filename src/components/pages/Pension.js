@@ -3,8 +3,8 @@ import BlocThreeImages from "../BlocThreeImages";
 import imgLeft from "../../assets/images/pension/img-left.jpg";
 import imgCenter from "../../assets/images/pension/img-center.jpg";
 import imgRight from "../../assets/images/pension/img-right.jpg";
-import imgLeftT from "../../assets/images/pension/img-left-t.JPG";
-import imgCenterT from "../../assets/images/pension/img-center-t.jpg";
+import imgLeftT from "../../assets/images/pension/img-left-t.jpg";
+import imgCenterT from "../../assets/images/pension/img-center-t.JPG";
 import imgRightT from "../../assets/images/pension/img-right-t.jpg";
 
 
@@ -29,7 +29,7 @@ const Pension = () => {
                             L'été, vos chevaux sont répartis en groupes mixtes dans de grands parcs avec abris, le long de la rivière. Ils sont nourris à l'herbe avec un complément CMV oligo-vit et un complément de foin si nécessaire en fin d'été.
                        </p>
                        <p>
-                            L'hiver, ils rentrent dans des box paddocks ou dans de grands box intérieurs et sont nourris en filet à foin et toujours en CMV. Trois sorties par semaine en liberté au parc ou dans le manège selon le temps sont offertes avec la pension pour leur permettre de se retrouver et de s'aérer ensemble, sur des jours définis et réguliers de manière à simplifier votre planning.
+                            L'hiver, ils rentrent dans des box paddocks ou dans de grands box intérieurs et sont nourris en filet à foin et toujours en CMV. Deux sorties par semaine en liberté au parc ou dans le manège selon le temps sont offertes avec la pension pour leur permettre de se retrouver et de s'aérer ensemble, sur des jours définis et réguliers de manière à simplifier votre planning.
                        </p>
                        <p>
                             Si vous le souhaitez, nous vous proposons un suivi pédagogique personnalisé et adapté à chacun pour vous aider à progresser avec votre cheval, à votre rythme. Nous visons un enseignement comportementaliste avec des méthodes éthiques dites "éthologiques", tenant compte de la personnalité du cheval mais également de celle de son cavalier, afin que tout le monde se sente à l'aise et que tout se passe au mieux. Toutes les disciplines sont coachées de la même façon, sans aucun préjugé !

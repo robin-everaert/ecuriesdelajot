@@ -90,7 +90,7 @@ const priceTablesArray = [
     {
       title: "Autres pensions",
       item: ["Pensions jeune cheval / débourrage", "Pensions réhabilitation - rééducation", "Pensions gardiennage / convalescence", "Accès aux installations et aux tarifs des pensions à l'année"],
-      price: ["Sur devis", "Sur devis", "Sur devis", "60€"],
+      price: ["110€ / semaine", "130€ / semaine", "85€ / semaine", "60€"],
       img: line,
     },
     // Pension passagère : (Commenté le 13/5)

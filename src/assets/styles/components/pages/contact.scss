@@ -27,11 +27,11 @@
     .container-input input, .container-msg textarea, .btn-submit {
         color: $white;
         border: 0;
-        background: $mainColor;
+        background: $secondColor;
         font-size: 1.1rem;
 
             &::placeholder {
-                color: #ccc;
+                color: $white;
                 font-style: italic;
             }
     }
