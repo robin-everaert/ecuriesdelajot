@@ -1,4 +1,4 @@
-import line from "../images/line.png";
+import line from "../images/line-coeur.png";
 import massage from "../images/stay/massage.JPG";
 import hydrotherapie from "../images/stay/hydrotherapie.jpg";
 import stretching from "../images/stay/stretching.JPG";

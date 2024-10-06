@@ -78,9 +78,9 @@ const Contact = () => {
                             <span>
                                 <span className="d-block fw-bold">O'Creations Sellerie</span>
                                 <div className="d-flex justify-content-around">
-                                    <a href="https://www.ocreations.fr/?gad_source=1&gclid=CjwKCAjw7s20BhBFEiwABVIMrbJlLcHNq_psN-Q7juxDnbpm5VVlAHm7Rd5YWP2BEMXgYJq-18eJWRoC9iYQAvD_BwE" className="span-saddle fw-bold" target='_blank'><i class="fa-solid fa-globe"></i></a>
-                                    <a href="https://www.facebook.com/o.creations.sellerie/" className="span-saddle fw-bold" target='_blank'><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com/o.creations.officiel?igsh=MXhmemttZ2V6em53OA==" className="span-saddle fw-bold" target='_blank'><i class="fa-brands fa-square-instagram"></i></a>
+                                    <a href="https://www.ocreations.fr/?gad_source=1&gclid=CjwKCAjw7s20BhBFEiwABVIMrbJlLcHNq_psN-Q7juxDnbpm5VVlAHm7Rd5YWP2BEMXgYJq-18eJWRoC9iYQAvD_BwE" className="span-saddle fw-bold" target='_blank'><i className="fa-solid fa-globe"></i></a>
+                                    <a href="https://www.facebook.com/o.creations.sellerie/" className="span-saddle fw-bold" target='_blank'><i className="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/o.creations.officiel?igsh=MXhmemttZ2V6em53OA==" className="span-saddle fw-bold" target='_blank'><i className="fa-brands fa-square-instagram"></i></a>
                                 </div>
                                 
                             </span>
@@ -90,7 +90,7 @@ const Contact = () => {
                             <span>
                                 <span className="d-block fw-bold">Cavasso</span>
                                 <div className="d-flex justify-content-around">
-                                    <a href="https://cavasso.fr" className="span-saddle fw-bold" target='_blank'><i class="fa-solid fa-globe"></i></a>
+                                    <a href="https://cavasso.fr" className="span-saddle fw-bold" target='_blank'><i className="fa-solid fa-globe"></i></a>
                                 </div>
                             </span>
                         </li>
@@ -99,7 +99,7 @@ const Contact = () => {
                             <span>   
                                 <span className="d-block fw-bold">Saddle fitting Lorraine</span>
                                 <div className="d-flex justify-content-around">
-                                    <a href="https://saddlefittinglorraine.fr/" className="span-saddle fw-bold" target='_blank'><i class="fa-solid fa-globe"></i></a>
+                                    <a href="https://saddlefittinglorraine.fr/" className="span-saddle fw-bold" target='_blank'><i className="fa-solid fa-globe"></i></a>
                                 </div>
                             </span>
                         </li>
@@ -108,7 +108,7 @@ const Contact = () => {
                             <span>
                                 <span className="d-block fw-bold">Rémi Champion : Préparateur physique</span>
                                 <div className="d-flex justify-content-around">
-                                    <a href="https://www.liber-key.com/" className="fw-bold" target='_blank'><i class="fa-solid fa-globe"></i></a>
+                                    <a href="https://www.liber-key.com/" className="fw-bold" target='_blank'><i className="fa-solid fa-globe"></i></a>
                                 </div>
                             </span>
                         </li>
@@ -117,7 +117,7 @@ const Contact = () => {
                             <span>
                                 <span className="d-block fw-bold">Christian Briquet : Dentiste équin</span> 
                                 <div className="d-flex justify-content-around">
-                                    <a href="0675742348"><i class="fa-solid fa-mobile-screen-button"></i></a>
+                                    <a href="0675742348"><i className="fa-solid fa-mobile-screen-button"></i></a>
                                 </div>
                             </span>
                         </li>

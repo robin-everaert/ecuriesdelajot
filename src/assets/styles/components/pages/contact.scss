@@ -2,13 +2,9 @@
 // Bubble : 
 .bubble-contact-content {
     color: $secondColor;
-    transition: all .3s;
         &:hover {
-            transform: scale(1.1);
-            transition: all .3s;
-            color: $secondColor;
+            color: $mainColor;
         }
-
         i {
             font-size: 2em;
             margin-top: 1em;
@@ -48,8 +44,7 @@
         border-radius: 8px;
         transition: all .3s;
             &:hover {
-                transform: scale(1.1);
-                transition: all .3s;
+                transform: scale(1.05);
             }
     }
     .form-response {

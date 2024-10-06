@@ -1,0 +1,27 @@
+.main-association {
+
+    h3 {
+        font-size: 1.8rem;
+        color: $mainColor !important;
+    }
+    h4 {
+        color: $mainColor;
+        font-weight: bold;
+    }
+    .logo-assoc {
+        width: 280px;
+    }
+    .link {
+        color: $mainColor;
+        font-size: 1.4rem;
+
+        &:hover {
+            color: $secondColor;
+        }
+    }
+}
+@media(min-width: 768px) {
+    .logo-assoc {
+        width: 350px;
+    }
+}

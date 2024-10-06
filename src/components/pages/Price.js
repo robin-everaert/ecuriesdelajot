@@ -11,7 +11,7 @@ const Price = () => {
             <div className="price-table-container">
    
                 <section className="container price-table-pension-container">
-                    <h2 className="text-center pb-0 pt-md-3 mt-md-5">Pensions</h2>
+                    <h2 className="price-table-title text-center pb-0 pt-md-3 mt-md-5">Pensions</h2>
                     <div className="row">
                         {
                             priceTablesArray.slice(0, 2).map((p, i) => (
@@ -28,7 +28,7 @@ const Price = () => {
                             ))
                         }       
                     </div>   */}
-                    <h2 className="text-center pb-0 pt-md-3 mt-5">Séances bien-être</h2>
+                    <h2 className="price-table-title text-center pb-0 pt-md-3 mt-5">Séances bien-être</h2>
                     <div className="row">
                         {
                             priceTablesArray.slice(4, 6).map((p, i) => (

@@ -26,13 +26,12 @@
         border-radius: none;
 
             h1, h3 {
-                color: $mainColor;
+                color: $secondColor;
             }
             a {
                 transition: all .3s;
                     &:hover {
-                        transform: scale(1.1);
-                        transition: all .3s;
+                        transform: scale(1.05);
                     }
             }
             img {
@@ -47,7 +46,7 @@
         background: $white;   
         background-size: cover;
         background-attachment: fixed;
-    
+
             .banner-home-content {
                 border-radius: 20px;
                 margin: 8vh;
@@ -55,19 +54,17 @@
                 background-color: rgba(255, 255, 255, .4);
             }
             img {
-    
                 width: 250px;
             }
             a {
-                background: $mainColor;
+                background: $secondColor;
                 padding: 5px 10px;
                 font-size: 1.6rem;
                 color: $white;
                 border-radius: 12px;
                 transition: .3s;
                     &:hover {
-                        transform: scale(1.1);
-                        transition: .3s;
+                        transform: scale(1.05);
                     }
             }
     }

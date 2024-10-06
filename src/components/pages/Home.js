@@ -84,7 +84,7 @@ const Home = () => {
                     </Link>
                     <Link to="/education" className='col-12 col-md-4'>
                         <img src={ serviceEducation } className="img img-fluid logo-no-txt" alt="Une adhérente de l'écuries de l'Ajot qui éduque un cheval" />
-                        <h3 className="font-title">Éducation</h3>
+                        <h3 className="font-title">Éducation du cheval</h3>
                     </Link>
                     <Link to="/seance-bien-etre" className='col-12 col-md-4'>
                         <img src={ serviceSejour } className="img img-fluid logo-no-txt" alt="Une adhérente de l'écuries de l'Ajot qui baigne son cheval" />

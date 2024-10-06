@@ -10,6 +10,7 @@ import Stay from './components/pages/Stay';
 import Price from './components/pages/Price';
 import Pension from './components/pages/Pension';
 import Education from './components/pages/Education';
+import Association from './components/pages/Association';
  
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/education" element={ <Education /> } />
         <Route path='/seance-bien-etre' element={ <Stay /> } />
         <Route path='/tarif' element={ <Price /> } />
+        <Route path='/association' element={ <Association /> } />
         <Route path='/contact' element={ <Contact /> } />
       </Routes>
 

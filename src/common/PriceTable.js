@@ -3,7 +3,7 @@ const PriceTable = ({ title, item, price, img }) => {
         <div className="col-12 col-md-6 mt-4 pt-0">
             <div className="price-table-content">
                 <div className="price-table-header text-center">
-                <h2>{title}</h2>
+                <h2 className="mb-0">{title}</h2>
                 </div>
                 <div className="price-table-body pt-4">         
                     <ul className='w-100 m-0 p-0'>
