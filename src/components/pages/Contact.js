@@ -49,20 +49,20 @@ const Contact = () => {
                 <h1 className='text-center'>Mes partenaires</h1>
                 <div className="row mt-5">
                     <div className="col-12 partner-content border-container">
-                        <h2 className='text-center'>Amelie Auguste <br /> Physiothérapeute manuel équin</h2>
+                        <h2 className='text-center'>Sarah Cleret - Equi'Presta <br /> Conseils et entretien des pieds nus </h2>
                             <div className="container-link-partner d-flex flex-column justify-content-around align-items-center">
-                                <a href="tel:0681399757" className="d-flex flex-column justify-content-center align-items-center" target='_blank'>
-                                    <i className="fa-solid fa-phone"></i>
-                                    <span>06 81 39 97 57</span>
+                                <a href="https://www.facebook.com/profile.php?id=61567273826752" className="d-flex flex-column justify-content-center align-items-center" target='_blank'>
+                                    <i className="fa-brands fa-facebook-f"></i>
+                                    <span>Equi'Presta</span>
                                 </a>
-                                <a href="mailto:amelieauguste@yahoo.fr" className="d-flex flex-column justify-content-center align-items-center" target='_blank'>
+                                <a href="tel:+33769049674" className="d-flex flex-column justify-content-center align-items-center" target='_blank'>
+                                    <i className="fa-solid fa-phone"></i>
+                                    <span>07 69 04 96 74</span>
+                                </a>
+                                {/* <a href="mailto:amelieauguste@yahoo.fr" className="d-flex flex-column justify-content-center align-items-center" target='_blank'>
                                     <i className="fa-solid fa-envelope"></i>
                                     <span>amelieauguste@yahoo.fr</span>
-                                </a>
-                                <a href="https://www.facebook.com/massageequinamelieauguste" className="d-flex flex-column justify-content-center align-items-center" target='_blank'>
-                                    <i className="fa-brands fa-facebook-f"></i>
-                                    <span>massageequinamelieauguste</span>
-                                </a>
+                                </a> */}
                             </div>               
                     </div>
                 </div>
@@ -73,6 +73,18 @@ const Contact = () => {
             <section className="container partner mt-0 mt-md-5">
                 <div className="row mt-5">
                     <ul className="col-12 partner-content container-link-partner container-link-partner-2 border-container d-flex flex-column flex-md-row justify-content-between align-items-center align-items-md-start text-center">
+                    <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
+                            {/* <i className="fa-solid fa-horse"></i> */}
+                            <span>
+                                <span className="d-block fw-bold">Amelie Auguste</span>
+                                <div className="d-flex justify-content-around">
+                                    <a href="https://www.facebook.com/massageequinamelieauguste" className="span-saddle fw-bold" target='_blank'><i className="fa-brands fa-facebook-f"></i></a>
+                                    <a href="mailto:amelieauguste@yahoo.fr" target='_blank'><i className="fa-solid fa-envelope"></i></a>
+                                    <a href="tel:+33675742348"><i className="fa-solid fa-mobile-screen-button"></i></a>
+                                </div>
+                                
+                            </span>
+                        </li>
                         <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
                             {/* <i className="fa-solid fa-horse"></i> */}
                             <span>
@@ -106,7 +118,7 @@ const Contact = () => {
                         <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
                             {/* <i className="fa-solid fa-horse"></i> */}
                             <span>
-                                <span className="d-block fw-bold">Rémi Champion : Préparateur physique</span>
+                                <span className="d-block fw-bold">Rémi Champion</span>
                                 <div className="d-flex justify-content-around">
                                     <a href="https://www.liber-key.com/" className="fw-bold" target='_blank'><i className="fa-solid fa-globe"></i></a>
                                 </div>
@@ -115,9 +127,9 @@ const Contact = () => {
                         <li className='d-flex flex-column justify-content-center align-items-center m-md-0 m-3'>
                             {/* <i className="fa-solid fa-horse"></i> */}
                             <span>
-                                <span className="d-block fw-bold">Christian Briquet : Dentiste équin</span> 
+                                <span className="d-block fw-bold">Christian Briquet</span> 
                                 <div className="d-flex justify-content-around">
-                                    <a href="0675742348"><i className="fa-solid fa-mobile-screen-button"></i></a>
+                                    <a href="tel:+33675742348"><i className="fa-solid fa-mobile-screen-button"></i></a>
                                 </div>
                             </span>
                         </li>
