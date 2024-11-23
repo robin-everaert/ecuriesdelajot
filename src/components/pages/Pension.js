@@ -11,15 +11,15 @@ import imgRightT from "../../assets/images/pension/img-right-t.jpg";
 const Pension = () => {
     return (
         <main id="main" className="main main-pension">
-            <section className="container">
+            {/* <section className="container">
                 <h1 className='text-center'>Pensions à l'année</h1>
 
                 <div className="row mt-3 mt-md-5">
                     <BlocThreeImages imgLeft={ imgLeft } imgCenter={ imgCenter } imgRight={ imgRight } />
                 </div>
-            </section>
+            </section> */}
 
-            <section className="container mt-5">
+            {/* <section className="container mt-5">
                 <div className="row txt-container">
                     <div className="col-12 text-center">
                        <p>
@@ -58,11 +58,10 @@ const Pension = () => {
                         </li>
                     </ul>
                 </div>
-            </section>
+            </section> */}
 
-            {/* Pension Temporaire : */}
             <section className="container">
-                <h1 className="text-center">Autres pensions</h1>
+                <h1 className="text-center">Pensions</h1>
 
                 <div className="row mt-3 mt-md-5">
                     <BlocThreeImages imgLeft={ imgLeftT } imgCenter={ imgCenterT } imgRight={ imgRightT } />
@@ -72,26 +71,29 @@ const Pension = () => {
             <section className="container">
                 <div className="row txt-container mt-5">
                     <div className="col-12">
-                        <p>
-                            Nous vous proposons diverses formules de pension courte durée, selon ce qui pourrait vous aider dans votre quotidien de propriétaire. 
+                        <p className="text-center">
+                            Bienvenue dans notre pension pour chevaux, où le bien-être et le respect de nos compagnons à quatre pattes sont au centre de notre engagement. Nous veillons à offrir des soins personnalisés, adaptés aux besoins spécifiques de chaque pensionnaire, quels que soient son âge, son passé et son état physique.
                         </p>
-                    
-                        <ul className="li-container">
+                        <p className="text-center">
+                            Notre priorité est de garantir une atmosphère sereine et équilibrée, permettant à chaque cheval et à son propriétaire de s’épanouir dans un environnement calme et sécurisé, entouré de professionnels passionnés.
+                        </p>
+                        <p className="text-center">
+                            Nous proposons des services d'hébergement en pension complète ou temporaire, que ce soit pour profiter de nos installations, pour les périodes de vacances ou si vous souhaitez nous confier votre cheval pour une convalescence.
+                        </p>
+                        <p className="text-center">
+                            La pension inclut un suivi pédagogique vous permettant de progresser avec votre cheval à votre rythme ainsi qu'un suivi de santé personnalisé et adapté à vos chevaux. 
+                        </p>
+                        <p className="text-center">
+                            Vous avez également la possibilité de nous confier votre cheval pour le travail ou des sorties : liberté, balade en main, pansage, etc. Tout est possible !
+                        </p>
+                        <ul className="li-container mt-5">
                             <li>
                                 <i className="fa-solid fa-horse"></i>
-                                Placement "provisoire" : Nous gardons toujours un box et un parc provisoire pour vous permettre de pouvoir séjourner temporairement et profiter des installations ainsi que des prestations sans avoir à vous engager sur une pension longue durée.
+                                Monitrice diplômée BPJEPS sur place.
                             </li>
                             <li>
                                 <i className="fa-solid fa-horse"></i>
-                                Le gardiennage de votre cheval est possible si vous devez vous absenter et que vous souhaitez partir serein. Votre cheval bénéficiera de toutes les prestations dont il a besoin pour se sentir chez lui et passer un bon séjour, sans être perturbé par votre absence.
-                            </li>
-                            <li>
-                                <i className="fa-solid fa-horse"></i>
-                                L'été nous accueillons avec plaisir les personnes qui souhaitent faire escale chez nous. Des tentes peuvent être installées, juste à côté des chevaux et le club-house est mis à disposition avec lavabo, toilettes, réfrigérateur, micro-onde, machine à café et bouilloire. Lors de votre séjour, vous aurez accès à toutes nos infrastructures et vous pourrez bénéficier des prestations de l'écurie. 
-                            </li>
-                            <li>
-                                <i className="fa-solid fa-horse"></i>
-                                Le transport des chevaux ou la location de notre van est possible pour ceux qui ne sont pas équipés pour se déplacer.
+                                Prestations de podologie et de bien-être (massages, algothérapie, stretching et aromathérapie) proposées à tarif réduit.
                             </li>
                         </ul>
                     </div>

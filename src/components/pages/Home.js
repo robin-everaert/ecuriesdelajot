@@ -26,6 +26,7 @@ const Home = () => {
                         <img src={ logoNoTxt } className="img img-fluid logo-no-txt" alt="Le logo de l'écuries de l'Ajot" />
                         <div className="txt-section1-container text-center">
                             <h1 className="fontTitle mt-0 mb-0">Écuries de l'Ajot</h1>
+                            <h2 className='fontTitle'>Marie Bailly</h2>
                         </div>
                         <img src={ lineCoeur } className="img img-fluid line-coeur" alt="Un dessin avec un coeur" />
                         
@@ -38,14 +39,15 @@ const Home = () => {
                 <section className="row presentation-container txt-container">
                     <div className="col-12 text-center ">
                         <p className="fst-italic">
-                            Les chevaux partagent la vie des hommes depuis plusieurs millénaires et de nos jours, on ne les élève plus que pour nos loisirs et donc notre plaisir. Il est de notre devoir de faire en sorte que nos chevaux tirent, eux aussi, profit de cette interaction entre les espèces. 
+                            Il est essentiel de créer une relation équilibrée et respectueuse entre l’homme et le cheval, fondée sur la compréhension mutuelle et la confiance. Chaque cheval mérite de vivre dans un environnement propice à son épanouissement, accompagné avec douceur, patience et bienveillance tout au long de son parcours.
                         </p>
-                        <p>
-                            Les Ecuries de L'Ajot vous accueillent dans un cadre unique et authentique en Champagne-Ardenne. Le calme et la nature règnent dans cet ancien corps de ferme, longé par la Saulx et datant du début du 20ème siècle. Nous avons commencé à réaménager les bâtiments il y a 4 ans et nous les avons transformés en écuries, tout en conservant leur charme d’antan.
-                        </p>
-                        <p>
-                            Diverses prestations sont disponibles aux écuries : pension, éducation du cheval et séance bien-être. Notre objectif premier reste la compréhension et le bien-être des chevaux, quel que soit le service proposé et nous aspirons chaque jour à les aider à se sentir au mieux, tout en conservant au maximum leurs besoins naturels.
-                        </p>
+                       <p>
+                            Les Écuries de L'Ajot vous invitent à découvrir un lieu unique et plein de charme en Champagne-Ardenne, où calme et nature s’harmonisent. Nichée dans un ancien corps de ferme rénové avec soin et datant du début du 20ᵉ siècle, bordée par la rivière Saulx, notre écurie offre un cadre authentique et paisible.
+                       </p>
+                       <p>
+                            Nous proposons des services de pension et d'éducation pour vos chevaux. En tant qu'éducatrice équine, j'accompagne chaque cheval en tenant compte de ses besoins et de sa personnalité. Tous les chevaux sont accueillis sans préjugés, que ce soit pour des séances d’éducation ou la pension.
+                            Notre priorité est de veiller à leur bien-être, en créant un environnement où ils se sentent en sécurité et peuvent s’épanouir pleinement.
+                       </p>
                     </div>
                 </section>
 
@@ -60,17 +62,17 @@ const Home = () => {
                         </h1>
                         <div className="p-0 text-center text-md-start txt-container">
                             <p>
-                                Fascinée depuis mon plus jeune âge par les chevaux, il m’est apparu très tôt comme une évidence d’orienter ma vie professionnelle dans ce domaine.
-                            </p>
-                            <p>
-                                J’ai commencé en obtenant mon BPJEPS en 2010 puis j’ai multiplié les expériences professionnelles en tant que cavalière et monitrice indépendante, tout en continuant à approfondir mes connaissances en suivant diverses formations, principalement en éthologie (formation en ligne Ludovic Fournet / Andy Booth), mais aussi en participant à d’autres formations : auxiliaire vétérinaire équin, aromathérapie équine, algothérapie, stretching.
-                            </p>
+                                Depuis mon enfance, ma passion pour les chevaux a été une évidence. Très tôt, j’ai su que ma vie professionnelle leur serait dédiée. En 2010, j’ai obtenu mon BPJEPS, marquant le début d’un parcours riche et inspirant. Mon chemin m’a menée à exercer en tant que cavalière et monitrice indépendante, tout en approfondissant mes connaissances en éthologie grâce à des formations avec Ludovic Fournet et Andy Booth. J’ai également élargi mes compétences avec des formations variées dans les soins équins : auxiliaire vétérinaire équin, aromathérapie, algothérapie, et stretching pour chevaux.
+                            </p>                
+
                             <p className="fw-bold">
-                                Plus qu’une passion, c’est devenue une vocation…
+                                Pour moi, les chevaux sont plus qu’une passion
                             </p>
+
                             <p>
-                            Soutenue par mon équipe, c’est tout naturellement que je poursuis l’aventure pour que l’on puisse avancer ensemble vers une équitation d’avenir basée sur un partenariat et une relation saine avec nos chevaux sans aucune forme de soumission mais avec des bases solides d’éducation, de confiance et de connexion.
+                                C’est une véritable vocation qui façonne ma vie et guide chacun de mes choix. Entourée d’une équipe formidable, je poursuis cette aventure avec un objectif clair : construire ensemble une équitation moderne, où le partenariat est au cœur de tout. Une relation fondée sur la compréhension, l’éducation et, surtout, le respect. Ici, pas de soumission, mais une connexion authentique et solide mettant en lumière la confiance et l’harmonie.
                             </p>
+                       
                         </div>
                     </div>     
                 </section>
