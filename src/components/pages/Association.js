@@ -20,7 +20,7 @@ const Association = () => {
                     </div>
                 </section>
 
-                <section className="row">
+                {/* <section className="row">
                     <h1 className="text-center mt-5">Événements à venir 2024-2025</h1>
                     <div className="col-12 txt-container text-center">
                         <h3 className="mt-3 mb-2">Repas de Noël</h3>
@@ -28,7 +28,7 @@ const Association = () => {
                         <h3 className="mt-4 mb-2">Vide sellerie</h3>
                         <p>Une occasion idéale pour vendre, acheter ou échanger du matériel d'équitation et passer une bonne journée !</p>
                     </div>
-                </section>
+                </section> */}
             </div>
         </main>
     );
