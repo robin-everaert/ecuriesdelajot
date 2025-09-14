@@ -39,15 +39,14 @@ const Home = () => {
                 <section className="row presentation-container txt-container">
                     <div className="col-12 text-center ">
                         <p className="fst-italic">
-                            Il est essentiel de créer une relation équilibrée et respectueuse entre l’homme et le cheval, fondée sur la compréhension mutuelle et la confiance. Chaque cheval mérite de vivre dans un environnement propice à son épanouissement, accompagné avec douceur, patience et bienveillance tout au long de son parcours.
+                            Entre l’homme et le cheval, l’harmonie naît de la douceur et du respect. Chaque cheval mérite un chemin où bienveillance et équilibre l’accompagnent à chaque étape de sa vie.
                         </p>
-                       <p>
-                            Les Écuries de L'Ajot vous invitent à découvrir un lieu unique et plein de charme en Champagne-Ardenne, où calme et nature s’harmonisent. Nichée dans un ancien corps de ferme rénové avec soin et datant du début du 20ᵉ siècle, bordée par la rivière Saulx, notre écurie offre un cadre authentique et paisible.
-                       </p>
-                       <p>
-                            Nous proposons des services de pension et d'éducation pour vos chevaux. En tant qu'éducatrice équine, j'accompagne chaque cheval en tenant compte de ses besoins et de sa personnalité. Tous les chevaux sont accueillis sans préjugés, que ce soit pour des séances d’éducation ou la pension.
-                            Notre priorité est de veiller à leur bien-être, en créant un environnement où ils se sentent en sécurité et peuvent s’épanouir pleinement.
-                       </p>
+                        <p>
+                            Nichées en pleine nature, les Écuries de L’Ajot vous accueillent dans un cadre paisible et authentique, au cœur d’un ancien corps de ferme rénové du début du 20ᵉ siècle, bordé par la rivière La Saulx.
+                        </p>
+                        <p>
+                            Plus qu’une simple écurie, Les Écuries de l’Ajot sont un lieu de vie et de partage où chaque cheval écrit une page de notre histoire. Notre priorité est de veiller à leur bien-être, en créant un environnement où ils peuvent s'épanouir pleinement et progresser à leur rythme.
+                        </p>
                     </div>
                 </section>
 
@@ -62,17 +61,20 @@ const Home = () => {
                         </h1>
                         <div className="p-0 text-center text-md-start txt-container">
                             <p>
-                                Depuis mon enfance, ma passion pour les chevaux a été une évidence. Très tôt, j’ai su que ma vie professionnelle leur serait dédiée. En 2010, j’ai obtenu mon BPJEPS, marquant le début d’un parcours riche et inspirant. Mon chemin m’a menée à exercer en tant que cavalière et monitrice indépendante, tout en approfondissant mes connaissances en éthologie grâce à des formations avec Ludovic Fournet et Andy Booth. J’ai également élargi mes compétences avec des formations variées dans les soins équins : auxiliaire vétérinaire équin, aromathérapie, algothérapie, et stretching pour chevaux.
-                            </p>                
-
-                            <p className="fw-bold">
-                                Pour moi, les chevaux sont plus qu’une passion
+                                Depuis toujours, les chevaux sont au cœur de ma vie. Après l’obtention de mon BPJEPS en 2010, j’ai exercé en tant que cavalière et monitrice indépendante.
                             </p>
-
                             <p>
-                                C’est une véritable vocation qui façonne ma vie et guide chacun de mes choix. Entourée d’une équipe formidable, je poursuis cette aventure avec un objectif clair : construire ensemble une équitation moderne, où le partenariat est au cœur de tout. Une relation fondée sur la compréhension, l’éducation et, surtout, le respect. Ici, pas de soumission, mais une connexion authentique et solide mettant en lumière la confiance et l’harmonie.
+                                Cependant, il me manquait quelque chose. L'approche du cheval qu'on me proposait me mettait souvent mal à l'aise et m'a donné envie de me tourner vers d'autres horizons. J'ai donc continué à travailler tout en approfondissant mes connaissances en éthologie et en éducation du cheval auprès de Ludovic Fournet et Andy Booth.
                             </p>
-                       
+                            <p>
+                                Passionnée par le bien-être équin, j’ai ensuite complété mon parcours avec des formations en soins et médecines alternatives.
+                            </p>
+                            <p>
+                                Aujourd'hui, avec une équipe passionnée à mes côtés, je poursuis ce chemin vers une équitation moderne, respectueuse de la nature profonde du cheval.
+                            </p>
+                            <p className="fst-italic">
+                                L'essentiel, c’est une connexion sincère, faite de confiance et d'harmonie.
+                            </p>   
                         </div>
                     </div>     
                 </section>
@@ -88,9 +90,9 @@ const Home = () => {
                         <img src={ serviceEducation } className="img img-fluid logo-no-txt" alt="Une adhérente de l'écuries de l'Ajot qui éduque un cheval" />
                         <h3 className="font-title">Éducation du cheval</h3>
                     </Link>
-                    <Link to="/seance-bien-etre" className='col-12 col-md-4'>
+                    <Link to="/care" className='col-12 col-md-4'>
                         <img src={ serviceSejour } className="img img-fluid logo-no-txt" alt="Une adhérente de l'écuries de l'Ajot qui baigne son cheval" />
-                        <h3 className="font-title">Séance bien-être</h3>
+                        <h3 className="font-title">Soins et accompagnement naturel</h3>
                     </Link>
                 </section>
             </div>

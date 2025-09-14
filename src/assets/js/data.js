@@ -11,7 +11,7 @@ const infrastructureArray = [
     "Box de 5*3 avec un paddock individuel de 7*3.",
     "Box intérieurs de 9*3m30.",
     "Carrière en sable de 25*35",
-    "Manège de 40*20",
+    "Manège de 30*20",
     "8 hectares de pâtures",
     "Douche avec eau chaude",
     "Casiers individuels avec anneaux d'attache à côté.",
@@ -84,12 +84,12 @@ const priceTablesArray = [
     {
       title: "Pensions à l'année",
       item: ["Shetlands – Poneys A", "Poneys B et C", "Poneys D et chevaux", "Adhésion annuelle"],
-      price: ["120€ par mois", "160€ par mois", "195€ par mois", "20€",],
+      price: ["130€ par mois", "170€ par mois", "205€ par mois", "20€",],
       img: line,
     },
     {
       title: "Autres pensions",
-      item: ["Pensions jeune cheval / débourrage", "Pensions réhabilitation - rééducation", "Pensions gardiennage / convalescence", "Accès aux installations et aux tarifs des pensions à l'année"],
+      item: ["Pensions jeune cheval / débourrage", "Pensions réhabilitation - rééducation", "Pensions gardiennage / convalescence", "Accès aux installations et aux tarifs à l'année"],
       price: ["110€ / semaine", "130€ / semaine", "85€ / semaine", "60€"],
       img: line,
     },

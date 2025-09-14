@@ -12,6 +12,9 @@ $secondColorBack: rgba(217, 141, 98, 0.1);
 body {
   background: $secondColorBack;
 }
+.secondColor {
+  color: $secondColor !important;
+}
 
 // Layout : 
 #main {
@@ -23,7 +26,6 @@ body {
   
 }
 .txt-container {
-
     p {
       color: $mainColor;
       font-size: 1.2rem;
@@ -59,6 +61,10 @@ h1 {
 h2 {
   color: $secondColor;
 }
+h3 {
+  font-size: 26px;
+  color: $secondColor !important;
+}
 
 .nav-item.active a {
   color: $secondColor !important;
@@ -80,6 +86,7 @@ h2 {
   .li-container {
 
     li {
+        font-size: 1.3rem;
         margin: 10px 0 10px 2em;
     }
     i {
@@ -90,6 +97,9 @@ h2 {
   h1 {
     font-size: 3rem !important;
     margin-top: 0;
+  }
+  h3 {
+    font-size: 28px;
   }
   .border-radius-container {
       p {

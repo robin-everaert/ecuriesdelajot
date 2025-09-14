@@ -30,10 +30,20 @@ const FormContact = () => {
 
     return (
             <form ref={ form } onSubmit={ sendEmail } id="form-contact" className="form-contact border-container">
+                <h5 className="secondColor text-center">
+                    Formulaire de contact en maintenance. Veuillez nous excuser pour la gêne occasionnée.
+                </h5>
+                <h5 className="secondColor text-center">
+                    Vous pouvez nous contacter en envoyant un e-mail à: {" "}
+                    <a href="mailto:ecuriesdelajot@gmail.com" className="secondColor fw-bold fst-italic">
+                        ecuriesdelajot@gmail.com
+                    </a>.
+                </h5>
+
                 <div className="container-input mb-3 d-flex flex-column flex-md-row justify-content-center align-items-center">
-                    <input type="text" name="name" className="form-control" id="nameInput" placeholder="Prénom *" required autoComplete='off' />
-                    <input type="email" name="email" className="form-control" id="telInput" placeholder="Adresse Email *" required autoComplete='off' />
-                    <input type="tel" name="phone" className="form-control" id="mailInput" placeholder="Téléphone" autoComplete='off' />
+                    <input disabled type="text" name="name" className="form-control" id="nameInput" placeholder="Prénom *" required autoComplete='off' />
+                    <input disabled type="email" name="email" className="form-control" id="telInput" placeholder="Adresse Email *" required autoComplete='off' />
+                    <input disabled type="tel" name="phone" className="form-control" id="mailInput" placeholder="Téléphone" autoComplete='off' />
                 </div>
 
                 <div className="container-msg mb-3 d-flex justify-content-center mt-5">

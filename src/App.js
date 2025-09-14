@@ -6,11 +6,12 @@ import Header from "./components/Header";
 import Footer from './components/Footer';
 import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
-import Stay from './components/pages/Stay';
+// import Stay from './components/pages/Stay';
 import Price from './components/pages/Price';
 import Pension from './components/pages/Pension';
 import Education from './components/pages/Education';
 import Association from './components/pages/Association';
+import Care from './components/pages/Care';
  
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/tarif' element={ <Price /> } />
         <Route path='/association' element={ <Association /> } />
         <Route path='/contact' element={ <Contact /> } />
+        <Route path='/care' element= { <Care /> } />
       </Routes>
 
       <Footer />
